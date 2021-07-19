@@ -2,16 +2,17 @@
 title: "Overview of the model-driven app designer | MicrosoftDocs"
 description: Learn about the app designer for model-driven apps.
 ms.custom: ""
-ms.date: 04/30/2021
+ms.date: 06/17/2021
 ms.service: powerapps
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "overview"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "PowerApps"
 author: "Mattp123"
+ms.subservice: mda-maker
 ms.author: "emcoope"
 ms.reviewer: "matp"
 manager: "kvivek"
@@ -59,6 +60,8 @@ The app designer interface has the following areas:
 
 7. Fit to screen - Quick action to fit the app preview to the available screen size.
 
+   :::image type="content" source="media/app-designer-layout.png" alt-text="Layout of the model-driven app designer that has the account and contact tables added.":::
+ 
 ## Known limitations
 
 - You can’t add the following model-driven app components:
