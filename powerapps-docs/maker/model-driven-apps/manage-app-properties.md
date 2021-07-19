@@ -28,7 +28,7 @@ search.app:
 
 # Manage model-driven app properties in the app designer
 
-App properties define important details about the app, like its title or URL. You define app properties when you create an app. If you want to change those properties later, you can do that in the app designer.  
+App properties define important details about the app, like its title or URL. You define app properties when you create an app. If you want to change those properties later, you can do that in the app designer.
   
 1. In the app designer, on the right side, select the **Properties** tab.  
 
