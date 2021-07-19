@@ -12,6 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "PowerApps"
 author: "Mattp123"
+ms.subservice: mda-maker
 ms.author: "emcoope"
 ms.reviewer: "matp"
 manager: "kvivek"
@@ -53,6 +54,7 @@ For more information review the following articles:
 1. On the **New model-driven app from blank** dialog box, select **Modern app designer**, and then select **Create**. :::image type="content" source="media/new-model-driven-app-from-blank.png" alt-text="New model-driven app from blank":::
 1. On the **New model-driven app** dialog box, enter a **Name** and optionally, a **Description**, and then select **Create**.
 1. On the left navigation pane, select **Navigation** to display the navigation tree. 
+
    :::image type="content" source="media/navigation-area.png" alt-text="Select the navigation area from the Navigation pane":::
    > [!TIP]
    > Use the menu toggle to show or hide the names of the menu options. :::image type="content" source="media/menu-toggle.png" alt-text="Toggle the menu to show or hide the name of the menu options":::
@@ -60,6 +62,7 @@ For more information review the following articles:
    :::image type="content" source="media/default-site-map.png" alt-text="Default site map is created for you":::
 1. Select **Group1** and change the title in the property pane to for example *Accounts and Contacts*. :::image type="content" source="media/edit-navigation-group-title.png" alt-text="edit the group's title in the property pane":::
 1. Select **Subarea1**, and make for example the following changes:
+
    - **Content type**: Table
    - **Table**: Account
    - **Title**: Accounts
@@ -72,7 +75,7 @@ For more information review the following articles:
 1. On the command bar, select **New page**, select **Table based view and form**, and then select **Next**.
 1. On the **New table view and form pages** dialog box, select **Contact**, leave the **Show in navigation** option selected, and then select **Add**. Note the following: 
    - Notice the preview pane displays your app. Selecting a component, such as a table, affects what's displayed in the preview. If your environment includes data that you have access to view, that also appears in the preview.
-   :::image type="content" source="media/create-app.png" alt-text="App created with account and contact tables":::
+   :::image type="content" source="media/create-app.png" alt-text="App created with account and contact tables.":::
 1. Select **Save**, and then select **Publish**.
 
 To see how the app runs in a full browser window, on the command bar, select **Play**.
