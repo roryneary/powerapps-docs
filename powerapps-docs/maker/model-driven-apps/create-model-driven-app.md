@@ -77,60 +77,16 @@ For more information review the following articles:
 
 To see how the app runs in a full browser window, on the command bar, select **Play**.
 
-## App navigation
 
-By default, a new model-driven app's navigation (or sitemap) is created that includes one area named **Area1**, one group named **Group1**, and one subarea named **Subarea1**. You can change the default area, group, and subarea names to something that is more meaningful to your users or configure a different site map. 
 
-In a model-driven app, there are the three main app runtime navigation components.
 
-1. Areas. For apps with more than one area, a switch control is displayed in the lower left navigation pane. In the screenshot below, the current area is named *Accounts*.
-1. Groups. Group names appear as a navigation element in an app with the subarea names within the group listed beneath it. In the screenshot below, one group is named *Accounts* and one is named *New Group*.
-1. Subareas. Subareas and pages appear under the group that they're configured within in the app designer. In the screenshot below, one subarea is named *All accounts revenue* and another subarea is named *Contacts*.
+### Next Steps
 
-   :::image type="content" source="media/default-sitemap.png" alt-text="Default model-driven app site map":::
-
-### Create a group or subarea
-
-1. On the left navigation pane, select **Navigation**.
-1. Select **Add**, and then select **Group** or **Subarea**.
-1. Complete the properties pane for the group or subarea.
-   - For groups:
-      - **Title**: Enter a title used to describe the group.
-      - **ID**: The system generates an identifier for the group. Except the system generated ID or enter a new one.
-   - For subareas:
-      - **Content type**: Select either **Table** or **Dashboard**.
-      - **Table** or **Dashboard**: Depending on the content type you selected, select a table or dashboard from the list.
-      - **Title**: Leave the default title or enter a title used to describe the subarea.
-1. To save your app navigation changes select **Save**.
-1. To publish the changes to make them available to users, select **Publish**.
-
-### Remove a group or subarea
-
-1. On the left navigation pane, select **Navigation**.
-1. Select the group or subarea you want, select **...**, and then select **Remove**.
-
-## Create and remove pages
-
-App designer pages are containers for one or more tables or dashboards. You can choose whether to have the page appear in the app navigation (site map) or not.
-
-To create a page, select **New page**, select the page type of either **Table based view and form** or **Dashboard**, and then select **Next**. If you don't want your page to appear in the app's site map, clear **Show in navigation**. Select the components you want and then select **Add**. 
-
-To remove a page, select a page, select **...**, and then select **Remove**.
-
-To remove a component from a page, expand a page, select the component, such as a form, view, or dashboard, select **...**, and then select **Remove**.
-
-## Create, add, and remove forms, views, or dashboards
-
-Create, add, or remove one or more forms or views for a table.
-
-1. On the left navigation pane select **Pages**, and then select the component you want, such as **Account form**. 
-1. On the right properties pane, select **Manage forms**.
-1. On the **Manage forms** flyout, select the forms you want to add or remove, and then select **Save**. Alternatively, select **New form** to open the form designer to create a new form.
-   :::image type="content" source="media/app-design-manage-forms.png" alt-text="Manage forms interface":::
-
-1. Select **Publish** to make the changes available to users.
-
-### See also
+- [Create, add and remove forms, views or dashboards](create-add-remove-forms-views-dashboards.md)
+- [Create and remove pages](create-remove-pages.md)
+- [App navigation](app-navigation.md)
+  
+### See Also
 
 - [Overview of the model-driven app designer](app-designer-overview.md)
 - [Configure app properties (Preview)](manage-app-properties-preview.md)
