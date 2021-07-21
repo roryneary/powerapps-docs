@@ -28,7 +28,7 @@ search.app:
 
 In this article you learn how to create a system chart. System charts are organization-owned charts, which makes them available to anyone with access to read the data running the app. System charts can't be assigned or shared with specific app users.
 
-1.  Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 1. On the left navigation pane, select **Apps**.
 
 1. Next to the model driven app to which you want to edit by adding a chart, select **...** (ellipses), and then select **Edit**. <!--In this example, we use the **Manage Customers** app used in the tutorial *How to create a model driven app*. -->
