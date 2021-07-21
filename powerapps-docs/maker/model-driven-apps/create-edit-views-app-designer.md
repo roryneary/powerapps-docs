@@ -29,22 +29,10 @@ search.app:
 
 # Create and edit public or system model-driven app views
 
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
-
 In this article you perform several tasks required to work with views, such as create a public view, add an existing view to an app, and change columns, filters, and sort order for a view.
 
-In Power Apps, views define how rows for a specific table are  displayed. A view defines the following:
--  The columns (attributes) to display
--  The width of the columns
--  How the rows are sorted by default
--  Which filters are applied to determine which rows appear in the list by default
-
-Typically, views are classified into three types:
-- **Personal:** Individual users can create personal views according to their personal requirements. These views are visible only to the user who created them and anyone they choose to share them with. 
-- **Public:** As an app maker, you can create and edit public views to fit your organizational requirements. These views are available in the view selector, and you can use them in subgrids in a form or as a list in a dashboard.
-- **System:** As an app maker, you can also modify system views to meet the requirements of your organization. These are special views that the application depends on: they exist for system tables or are automatically created when you create custom tables. These views are available to some or all users, depending on their permissions.
-
-More information: [Understand views](create-edit-views.md)
+> [!TIP]
+> For a general introduction into views please read [Understand views in model-driven apps](create-edit-views.md)
 
 ## Create a public view in Power Apps
 As an app maker, you can create and edit public views by using Power Apps.
@@ -52,49 +40,59 @@ As an app maker, you can create and edit public views by using Power Apps.
 > [!NOTE]
 > Public views created in Power Apps that include **Contains data** or **Does not contain data** filters will not appear in the list of saved views in Advanced Find.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
+1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+1. Select **Solutions** in the left navigation.
+1. Create a new solution by selecting **New solution** or select **edit** in the ellipses (**...***) menu of an existing solution. For more  information on creating a model-driven app see:
+   - [Create a model driven app](create-model-driven-app.md)
+   - [Add a table to a solution](../data-platform/data-platform-create-entity)
 
-2. Expand **Data**, select **Tables**, select the table that you want, and then select the **Views** tab. 
+From within the solution there are two ways to edit views. *App Designer* and Tables
 
-3. On the toolbar, select **Add view**. 
+## Edit public views through tables
 
-4. On the **Create a view** dialog box, enter a name and, optionally, a description, and then select **Create**. 
-    
-5. In the view designer, select **+ View column** to add additional columns you want to display in the view. 
+In the solution that we opened earlier create a new table or find an existing table that you want to edit the public views for.
+
+1. Expand **Data**, select **Tables**, select the table that you want, and then select the **Views** tab.
+1. On the toolbar, select **Add view**.
+:::image type="content" source="media/add-view.png" alt-text="Add view to table":::
+1. On the **Create a view** dialog box, enter a name and, optionally, a description, and then select **Create**.
+:::image type="content" source="media/create-a-view-dialog.png" alt-text="Create a view":::
+1. In the view designer, select **+ View column** to add additional columns you want to display in the view. Or alternatively, select Table columns in the left navigation and drag the table columns into your view.
 
    ![Add column.](../data-platform/media/add-column-to-view.png)
 
    > [!TIP]
-   > The **Default** view in the **Add column** pane displays the commonly used columns. If the column you want isn’t listed, select **All** to display additional columns.
-   >
-   > <img src = "media/display-all-columns.png" alt = "Select All to display all columns" width = "350" height = "557">
+   > The **Default** view in the **Add column** pane displays all columns. If prefered  select **Standard** or **Custom** to display a subset of columns.
+   > :::image type="content" source="media/display-all-columns.png" alt-text="Select All to display all columns":::
+1. In the view designer, you can perform the follow tasks:
 
-
-6. In the view designer, you can perform the follow tasks: 
    - To change the column filtering select the header of the column you want to filter, and then in the dropdown select **Filter by**.
-   - To change the column sorting select the header of the column you want to filter and then select **Sort A-Z** or **Sort Z-A**.
+   - To change the column sorting select the header of the column you want to filter and then select **Sort A-Z** or **Sort Z-A** or **Sort descending** or **Sort ascending**.
+  
+
+
    - Configure column width by clicking and dragging the column to the desired position.
-   - Reorder columns by dragging a column to the position you want to move it to. 
-
+   - Reorder columns by dragging a column to the position you want to move it to.
     > [!NOTE]
-    > You can also change column order by clicking on the column header and selecting **Move Right** or **Move Left**.
+    > Depending on the data type of the column the term A-Z/Z-A or ascending or descending is used
 
-7. Select **Publish** to save the view and make it available for other users in your organization. 
-   
+    > [!TIP]
+    > You can also change column order by clicking on the column header and selecting **Move Right** or **Move Left**.
+1. Select **Publish** to save the view and make it available for other users in your organization.
 
 ## Work with views in app designer
-The following sections describe how to create and edit views in app designer.
+
+An alternative to editing views in the tables is to edit views from the app designer.
 
 ### Open and add a view in the app designer
 
 The following steps explain how to open and add a view in the app designer.
-1. In Power Apps select **Apps** from the left navigation pane, select **...** next to the app you want, and then select **Edit**. 
 
-2. In the app designer **Table View** section, select **Views**.
+1. In Power Apps select **Solutions** from the left navigation pane, select **...** next to the app you want, and then select **Edit**.
+1. In the app designer **Table View** section, select **Views**.
+   In this example, we have selected **Views** from the **Account** table.
 
-    In this example, we have selected **Views** from the **Account** table.
-
-    ![App Designer View.](media/ViewAppDesigner_AccountAppDesignerView.png "App Designer view of Account table")
+   ![App Designer View.](media/ViewAppDesigner_AccountAppDesignerView.png "App Designer view of Account table")
 
 3. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
