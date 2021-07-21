@@ -21,8 +21,6 @@ searchScope:
 
 ## Accessibility
 
-This is a change
-
 Accessibility is a term that is used to refer to the extent to which people with disabilities can use digital products.  In the case of model-driven apps consideration has been paid to matters such as responsive design, how user navigate between fields, how the app behaves in high contrast mode and how screen readers help users to understand the nature of the application.
 
 [Using screen readers within model-driven apps](../../user/screen-reader.md)
