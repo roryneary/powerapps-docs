@@ -31,6 +31,14 @@ The tool that is used in order to create model-driven apps.
 
 It allows us to configure the site map, the tables required and the forms and views relevant to the app.
 
+## App Navigation Experience
+
+The way in which we areas, groups and sub-groups are presented in a model-driven app.
+
+## Area
+
+ A part of the [model-driven app navigation experience](../../maker/model-driven-apps/app-navigation.md).  Apps can have multiple groups and groups can have multiple sub-areas.  The sub-area contains the tables relevant to the application. For apps with more than one area, a switch control is displayed in the lower left navigation pane.
+
 ## Business Process Flow
 
 Logic built into a given table to ensure that users complete records by updating fields in the correct order.  Authored initially using the Power Automate Experience.
@@ -46,6 +54,12 @@ rules are server-side logic that is used with canvas or model-driven apps to set
 
 [Find out more about business rules here](https://docs.microsoft.com/en-us/learn/modules/define-create-business-rules/1-rules)  
 
+## Canvas app
+
+An app which is generated using drag and drop controls configured using Power Fx.  Canvas apps offer the designer significant control over the user experience and can be connected to a very wide range of data sources and data services.  Canvas apps are arranged into screens and controls such as galleries, text boxes and dropdowns are placed onto the screens and configured so that they connect to the data sources and to each other correctly.
+
+[Find out more about canvas apps here](../canvas-apps/getting-started.md).
+
 ## Chart
 
 A visual representation of a table of data.  These can take the form of line, bar, pie chart or donut chart.
@@ -56,7 +70,7 @@ Modern apps allow for the creation of both Canvas apps and model-driven apps.
 
 In due course all model-driven apps will be authored as modern apps.
 
-The ability to create model-driven apps usin g the app designer remains.  We call this the classic app designer authoring experience.
+The ability to create model-driven apps using the app designer remains.  We call this the classic app designer authoring experience.
 
 ## Column
 
@@ -84,11 +98,17 @@ Dashboard A method of presenting data relating to users in a graphic or chart fo
 
 [Find out more about how to use Power BI within a model driven app](../../maker/model-driven-apps/use-power-bi.md)
 
+## Dashboard
+
+A dashboard allows charts, Power BI reports and views of tables to be presented to the app user.
+
+[Find out more about dashboards here](../../maker/model-driven-apps/create-edit-dashboards.md)
+
 ## Data Model
 
-A collection of related tables within Dataverse.
+A collection of related tables.  In the context of model-driven apps these are held within the Dataverse database.
 
-Where these are included in a solution these are a set of related tables built with the purpose of delivering the overall application.
+Where these are included in a solution these are often a set of related tables built with the purpose of delivering the overall application.
 
 ## Database
 
@@ -96,7 +116,7 @@ The collective term for all the tables in Dataverse.
 
 ## Dataverse
 
-The collective term for the tables, workflows, business process flows and related functionality that is provisioned within an environment when a database is created.  
+Microsoft Dataverse is the collective term for the tables, workflows, business process flows and related functionality that is provisioned within an environment when a database is created.  
 
 Model-driven apps are tied to the Microsoft Dataverse database.
 
@@ -131,6 +151,15 @@ Environments are tied to a geographical region and can be a means of ensuring th
 
 [Find out more about environments here](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
 
+## Form
+
+Forms provide the user interface (UI) that people use to create, view, or edit table records. Use the form designer in the customization tools to create and edit forms. More information: [Create and design forms](../../maker/model-driven-apps/create-design-forms.md) for information about tasks related to working with forms in the application.
+
+## Group
+
+A part of the [model-driven app navigation experience](../../maker/model-driven-apps/app-navigation.md).
+Group names appear as a navigation element in an app with the subarea names (tables) within the group listed beneath it.
+
 ## Publish
 
 The process by which we make the latest iteration of the app available to users within the environment.
@@ -139,7 +168,7 @@ The process by which we make the latest iteration of the app available to users 
 
 The way in which fields between tables relate to each other.  There are 3 types of relationship 1 to many (1 Author to many Novels), many to 1 (many pages to 1 book) and Many to Many (many books borrowed by many people).
 
-Model driven apps often contain tables with relationships between them.
+Model driven apps often contain tables with relationships between them.  Where relationships exist we have the ability to navigate to the record within the related table.  For example, when looking at a sale we might navigate to the account table to investigate details relating to the account.
 
 ## Security Role
 
@@ -151,7 +180,7 @@ Security roles are created and users are put into security roles either as indiv
 
 [Find out more about security roles here](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges##%20security-roles)
 
-Map
+## Site Map
 
 Site maps define the tables that are included within a model-driven app and the navigation experience by which users will have when moving between those apps.
 
@@ -173,6 +202,11 @@ This allows for a high level of control around our application management life-c
 
 [Find out more about solutions here](../maker/data-platform/solutions-overview.md)
 
+## Subarea
+
+A part of the [model driven app navigation experience](../../maker/model-driven-apps/app-navigation.md) .
+Subareas (tables) and pages appear under the group that they're configured within in the app designer.
+
 ## Table
 
 A table is a method of storing data in columns (or fields) within Dataverse.  We sometimes refer to them entities.
@@ -183,13 +217,13 @@ Tables have views, forms and business rules associated with them.
 
 Tables can relate to other tables and these are defined via the relationships that have been set up between them.
 
-[Find out more about configuring tables here](../maker/data-platform/entity-overview.md)
+[Find out more about configuring tables here](../../maker/data-platform/entity-overview.md)
 
 ## Unified Interface
 
 The Unified Interface for model-driven apps provides a consistent and accessible user experience across devices—whether on a desktop, laptop, tablet, or phone.  The predecessor the the unified interface was know as the web interface.
 
-[Find out more about the unified interface here](../user/unified-interface.md)
+[Find out more about the unified interface here](../../user/unified-interface.md)
 
 ## Validate
 
@@ -201,7 +235,7 @@ A tabular representation of a dataverse table.  Table can have multiple views.
 
 Views can be pre-filtered and it is possible to define the specific views that a model driven app will make available to users. 
 
-[Find out more about views here](../developer/model-driven-apps/customize-entity-views.md)
+[Find out more about views here](../../developer/model-driven-apps/customize-entity-views.md)
 
 ## Workflow
 
