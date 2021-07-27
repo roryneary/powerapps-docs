@@ -23,11 +23,16 @@ search.app:
 
 # Accessibility in Power Apps app designer, site map designer, and My Apps page
 
-Microsoft is committed to making its products and services easier for everyone. More information: [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
- 
-This topic describes the accessibility features available with model-driven apps.  
+Microsoft is committed to making its products and services easier for everyone. For more information see, [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
+
+This topic describes the accessibility features available with
+
+[!INCLUDE[model-driven-apps](../../includes/cc-model-driven-apps.md)].  
   
-## Keyboard shortcuts  
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+## Keyboard shortcuts
+
 Power Apps offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities.  
 
 ### My Apps page
