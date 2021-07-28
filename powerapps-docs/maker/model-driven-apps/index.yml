@@ -19,8 +19,9 @@ metadata:
 
 landingContent:
 
+
   # Card 
-  - title: Get started
+  - title: Overview
     linkLists:
        - linkListType: overview
          links:
@@ -28,13 +29,14 @@ landingContent:
             url: model-driven-app-overview.md
           - text: Planning a Power Apps project
             url: ../../guidance/planning/introduction.md
-       - linkListType: learn
-         links:
-          - text: Get started with model-driven apps
-            url: /learn/modules/get-started-with-model-driven-apps-in-powerapps/
-
+       - linkListType: reference
+          - text: Keyboard shortcuts
+            - url: accessibility-app-designer-site-map-designer-my-apps-page.md
+          - text: Glossary
+            - url: model-driven-app-glossary.md
+      
   # Card
-  - title: Create
+  - title: Get Started
     linkLists:
        - linkListType: quickstart
          links:
@@ -48,9 +50,13 @@ landingContent:
             url: define-data-model-driven-app.md
           - text: Use app designer to build an app
             url: design-custom-business-apps-using-app-designer.md
-          
+       - linkListType: learn
+         links:
+          - text: Get started with model-driven apps
+            url: /learn/modules/get-started-with-model-driven-apps-in-powerapps/
+        
   # Card
-  - title: Customize
+  - title: Customize apps
     linkLists:
        - linkListType: how-to-guide
          links:
@@ -60,8 +66,42 @@ landingContent:
             url: guide-staff-through-common-tasks-processes.md
           - text: Create and manage app views
             url: create-edit-views.md
-          - text: Embed a canvas app on a model-driven form
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: App Designer
+            url: app-designer-overview.md
+          - text: Form designer
+            url: form-designer-overview.md
+          - text: View Designer
+            url: create-edit-views.md
+          - text: Process
+
+
+  # Card
+  - title: Distribute and share
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Share an app
+            url: share-model-driven-app.md
+          - text: Distribute an app
+            url: distribute-model-driven-app.md
+          - text: Use solutions for ALM
+            url: ../data-platform/solutions-overview.md
+
+
+  # Card
+  - title: Integration
+  linkLists: 
+    - linkListType: how-to-guide
+    links:
+      - text: Embed a canvas app on a model-driven form
             url: embed-canvas-app-in-form.md
+      - text: App for Outlook
+          url: app-for-outlook.md
+      - text: Power BI
+          url: add-powerbi-visual.md
 
   # Card
   - title: Work with controls
@@ -76,42 +116,6 @@ landingContent:
             url: rich-text-editor-control.md
 
   # Card
-  - title: Apply data visualizations
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Create a system chart
-            url: create-edit-system-chart.md
-          - text: Create or edit dashboards
-            url: create-edit-dashboards.md
-          - text: Set chart or list properties
-            url: set-properties-chart-list-included-dashboard.md
-
-  # Card
-  - title: Distribute and share
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Share an app
-            url: share-model-driven-app.md
-          - text: Distribute an app
-            url: distribute-model-driven-app.md
-          - text: Use solutions for ALM
-            url: ../data-platform/solutions-overview.md
-
-  # Card
-  - title: Transition to Unified Interface
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Transition quick start
-            url: ../../user/unified-interface.md
-          - text: Approaching a Unified Interface transition
-            url: ../../user/unified-interface.md
-          - text: Transition FAQs
-            url: ../../user/unified-interface.md
-
-  # Card
   - title: Advanced app making and customization
     linkLists:
       - linkListType: how-to-guide
@@ -124,6 +128,18 @@ landingContent:
             url: use-customizable-help.md
 
   # Card
+  - title: Apply data visualizations
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Create a system chart
+            url: create-edit-system-chart.md
+          - text: Create or edit dashboards
+            url: create-edit-dashboards.md
+          - text: Set chart or list properties
+            url: set-properties-chart-list-included-dashboard.md
+
+  # Card
   - title: For developers
     linkLists:
       - linkListType: how-to-guide
@@ -131,6 +147,5 @@ landingContent:
           - text: Customize table forms using code
             url: ../../developer/model-driven-apps/customize-entity-forms.md
           - text: Apply data visualizations using code
-            url: ../../developer/model-driven-apps/customize-visualizations-dashboards.md      
-          - text: More >
-            url: ../../developer/model-driven-apps/index.yml
+            url: ../../developer/model-driven-apps/customize-visualizations-dashboards.md
+  
