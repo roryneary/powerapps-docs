@@ -76,13 +76,6 @@ Dashboards can be standard or interactive. Standard dashboards support adding on
 
 1. On the solution toolbar, select **Publish**.  
   
-Additional system dashboards tasks include:  
-  
-- Remove a list or chart from a dashboard  
-- Add a list or chart to a dashboard  
-- Set the default dashboard  
-- Use security roles to make a dashboard visible to just certain roles
-
 ## Next steps
 
 [Set properties for a chart or list included in a dashboard](set-properties-chart-list-included-dashboard.md)
