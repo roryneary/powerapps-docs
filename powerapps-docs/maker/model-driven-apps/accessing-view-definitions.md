@@ -1,6 +1,6 @@
 ---
 title: "Access a model-driven app view definition | MicrosoftDocs"
-description: In this topic you learn how to access table views
+description: Learn how to access table views
 ms.custom: ""
 ms.date: 03/23/2020
 ms.reviewer: ""
