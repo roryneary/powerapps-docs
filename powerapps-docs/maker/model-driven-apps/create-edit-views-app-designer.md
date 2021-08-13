@@ -29,6 +29,8 @@ search.app:
 
 # Create and edit public or system model-driven app views
 
+Model-driven apps can contain a range of views, so that app users can see the most suitably presented and filtered version of the table that they are investigating.
+
 In this article you perform several tasks required to work with views, such as create a public view, add an existing view to an app, and change columns, filters, and sort order for a view.
 
 > [!TIP]

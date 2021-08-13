@@ -21,17 +21,14 @@ search.app:
 ---
 # Use keyboard shortcuts in Power Apps
 
-Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across apps. 
+Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across apps.
 
 > [!NOTE]
-> The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
+> The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.
 
 ## Form shortcuts
 
-
-
-
-|Task  | Unified Interface |
+|Task  | Unified Interface Shortcut|
 |---------|---------|
 |Complete the command for the active option or button|  Enter|
 |Cancel a command, or close a selected list or dialog box| Esc|
@@ -51,7 +48,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 
 ## Form navigation shortcuts
 
-|Task | Unified Interface |
+|Task | Unified Interface Shortcut |
 |---------|---------|
 |Move to the next option, option group, or column|Tab|
 |Move to the previous option, option group, or column| Shift+Tab |
@@ -59,8 +56,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Go to the Command Bar| N/A |
 |Go to the landmark section of a page| Ctrl+\[ |
 
-
-## Email 
+## Email
 
 The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
 
@@ -82,17 +78,17 @@ The following table outlines a list of accessibility shortcuts available when us
 | Base commands | Alt+0 | Accessibility help. |
 | Base commands | Esc | Cancel operation. |
 
-
 ## Editable grids (views)
+
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
 
-|Task  | Unified Interface|
+|Task  | Unified Interface Shortcut|
 |---------|---------|
 |When the focus is on a column header, sort by column | Spacebar to drop down list and then down arrow to select an action, followed by Enter |
 |When the focus is on a column header, open filter dialog | Spacebar to drop down list and then down arrow to select the **Filter by** option, followed by Enter |
-|When the focus is on the cells, move to the next column |  Right arrow (→) key  | 
+|When the focus is on the cells, move to the next column |  Right arrow (→) key  |
 |When the focus is on the cells, move to the previous column   |  Left arrow (←) key|
-|When the focus is on the column header, move to the next column header |  Tab  | 
+|When the focus is on the column header, move to the next column header |  Tab  |
 |When the focus is on the column header, move to the previous column header  |  Shift+Tab |
 |Move to the cell above | Up arrow (↑) key |
 |Move to the cell below|  Down arrow (↓) key **Or** Enter, when cell is not in edit mode |
@@ -103,7 +99,7 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |Move between entries in an open drop-down list| Up/Down (↑/↓) Arrow keys|
 |Select an option in an open drop-down list|  Enter|
 |Close an open drop-down list|Esc|
-|Cancel your edits|Esc | 
+|Cancel your edits|Esc |
 |Navigate to and open the lookup row| Enter when the focus is on (→) icon|
 |Move to the next page (if any)| Page down key|
 |Move to the previous page (if any)|Page up key|
@@ -112,24 +108,25 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |Move to the Refresh button when the focus is on the column header| Tab|
 
 ## Interactive dashboard shortcuts
-Interactive dashboards enable new functionality, such as filtering, sorting, and quick actions. 
 
-|Task             |Unified Interface  |
+Interactive dashboards enable new functionality, such as filtering, sorting, and quick actions.
+
+|Task             |Unified Interface Shortcut |
 |---------|---------|
 |Activate a dashboard element (simulate left-click)| Enter **Or** Spacebar |
-|Move to the next element  | Tab | 
-|Move to the previous element  | Shift+Tab  | 
+|Move to the next element  | Tab |
+|Move to the previous element  | Shift+Tab  |
 |Move to the next item within a dashboard element  | Down (↓) arrow key |
-|Move to the previous item within a dashboard element  | Up (↑) arrow key | 
+|Move to the previous item within a dashboard element  | Up (↑) arrow key |
 |Close a menu | Escape |
 |Select a check box or radio button | Spacebar |
 |Modify the date range filter | Ctrl+Alt+D |
 |Show the visual filter pane | Ctrl+Alt+V |
-|Move to the global command bar | Ctrl+Alt+A | 
+|Move to the global command bar | Ctrl+Alt+A |
 
 ### Global filter shortcuts
 
-|Task             |Unified Interface  |
+|Task             |Unified Interface Shortcut |
 |---------|---------|
 |Open a menu | Enter **Or** Spacebar **Or** Down (↓) arrow key |
 |Activate a button | Enter **Or** Spacebar |
@@ -146,9 +143,9 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 ### Dashboard stream control shortcuts
 
-|Task             |Unified Interface  |
+|Task             |Unified Interface Shortcut |
 |---------|---------|
-|Move to the first command on the active dashboard stream's command bar | Ctrl+Alt+Q | 
+|Move to the first command on the active dashboard stream's command bar | Ctrl+Alt+Q |
 |Move to the next element | Tab |
 |Move to the previous element | Shift+Tab |
 |Activate a button | Enter **Or** Spacebar |
@@ -166,7 +163,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 ### Chart shortcuts
 
-|Task             |Unified Interface  |
+|Task             |Unified Interface Shortcut |
 |---------|---------|
 |Move to the first element in a chart | Tab |
 |Move to the next data point | Right (→) arrow key **OR** Down (↓) arrow key|
@@ -177,7 +174,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 ### Date-Time control shortcuts
 
-|Task             |Unified Interface  |
+|Task             |Unified Interface Shortcut |
 |---------|---------|
 |Open the date picker flyout | Enter **Or** Spacebar **Or** Down (↓) arrow key |
 |Activate the option and close the flyout | Enter **Or** Spacebar |
@@ -193,7 +190,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 ### Search results shortcuts
 
-|Task             |Unified Interface  |
+|Task             |Unified Interface Shortcut |
 |---------|---------|
 |Move to the next search result | Up (↑) arrow key |
 |Move to the previous search result | Down (↓) arrow key |
@@ -201,8 +198,8 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move from the list of available views to search results | Left (←) arrow key |
 |Navigate between buttons | Tab |
 
-
 ## Navigating submenus
+
 If you use a screen reader, follow these steps to access any of the submenus that are displayed when you hover the mouse over a navigation link.
 
 1. Navigate between the menu options using standard link navigation.
@@ -213,16 +210,16 @@ If you use a screen reader, follow these steps to access any of the submenus tha
 > Several areas in the user interface (UI) have auto-collapse built in for menus. This includes the Navigation Bar and Form Navigation. Both expand when selected, but after 30 seconds of inactivity, the items collapse.
 
 ## Navigating through stages of a process
+
 If you’re in a row—for example, a lead—this section shows you the keyboard shortcuts to navigate through the different stages in the sales process to qualify the lead, and how to make selections in those stages. For example, if you want to move easily from the Qualify stage through to the Close stage, try these keyboard actions:
+
 - After you select a stage, get to the columns by selecting the Down (↓) arrow.
 - If a stage is collapsed, select Enter to expand it.
 
   > [!NOTE]
   > The process name is an icon at the bottom of the page, not the top.
 
-- **Keyboard shortcuts in Windows**: If you are using the Windows operating system, select the following link and choose the version number from the drop-down list. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/help/12445/windows-keyboard-shortcuts). 
+- **Keyboard shortcuts in Windows**: If you are using the Windows operating system, select the following link and choose the version number from the drop-down list. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/help/12445/windows-keyboard-shortcuts).
 - **Keyboard shortcuts in Mac**: If you are using a Mac operating system, select the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/HT201236).
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
