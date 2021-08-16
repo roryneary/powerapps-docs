@@ -26,20 +26,20 @@ search.app:
 ---
 # Design considerations for model-driven app main forms
 
-Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for model-driven apps, the exception being Dynamics 365 for phones.  
+Main forms are the **primary user interface** where people view and interact with their data. Main forms provide the widest range of options and are available for model-driven apps, the exception being Dynamics 365 for phones.  
   
- One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for a model-driven app is also used in Dynamics 365 for Outlook and Dynamics 365 for tablets. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
+ One of the main design objectives for main forms is that you **design them once** and deploy them everywhere. The same main form you design for a model-driven app is also used in Dynamics 365 for Outlook and Dynamics 365 for tablets. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
   
 <a name="BKMK_CustomFormsForGroups"></a>   
 
 ## Custom forms for different groups  
  Because you can create multiple main forms and assign different security roles to each form you can present different groups in your organization with a form that is optimized for how they use the application. You can even provide each group with different options so that they have different forms to choose from. More information: [Control access to forms](control-access-forms.md)  
   
- You can expect that managers and decisions makers will want forms that are optimized to provide quick reference to key data points. They will like to see charts more than lists and they may not perform a lot of data entry.  
+ You can expect that managers and decisions makers will want forms that are optimized to provide **quick reference to key data points**. They will like to see charts more than lists and they may not perform a lot of data entry.  
   
- People who interact directly with customers may need forms tailored to tasks they perform most frequently. They may want forms that allow for the most efficient data entry.  
+ People who interact directly with customers may need forms tailored to tasks they perform most frequently. They may want forms that allow for the **most efficient data entry**.  
   
- You’ll need to find out what people in your organization want and need. This is frequently an iterative process where you gather input, try different things and build forms that people can use. Keep in mind that you have a variety of tools available to you and that not everything has to be done within the form. Use business rules, workflow processes, dialogs and business process flows together with your forms to provide a solution that works for your organization.  
+ You’ll need to find out what people in your organization want and need. This is frequently an **iterative process** where you gather input, try different things and build forms that people can use. Keep in mind that you have a variety of tools available to you and that **not everything has to be done within the form**. Use [business rules](../model-driven-apps/model-driven-app-glossary.md#business-rule), workflow processes, dialogs and [business process flows](../model-driven-apps/model-driven-app-glossary.md#business-process-flow) together with your forms to provide a solution that works for your organization.  
   
  You’ll have to balance this with the amount of time you want to spend managing forms. Creating and editing forms is relatively easy, but as you create more forms, you have to manage more forms.  
   

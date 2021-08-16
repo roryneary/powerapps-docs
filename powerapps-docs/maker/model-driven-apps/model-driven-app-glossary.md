@@ -173,12 +173,30 @@ Environments are tied to a geographical region and can be a means of ensuring th
 
 ## Form
 
-Forms provide the user interface (UI) that people use to create, view, or edit table records. Use the form designer in the customization tools to create and edit forms. More information: [Create and design forms](../../maker/model-driven-apps/create-design-forms.md) for information about tasks related to working with forms in the application.
+Forms provide the user interface (UI) that people use to create, view, or edit table records. Use the form designer in the customization tools to create and edit forms.
+
+There are 4 types of form.  Main, Quick Create, Quick View and Card.
+
+More information:
+
+[Form Types](../../maker/model-driven-apps/types-forms.md)
+
+[Cpening the form editor](../../maker/model-driven-apps/open-form-editor.md)
+
+[Learn about creating and designing forms](../../maker/model-driven-apps/create-design-forms.md)
 
 ## Group
 
 A part of the [model-driven app navigation experience](../../maker/model-driven-apps/app-navigation.md).
 Group names appear as a navigation element in an app with the subarea names (tables) within the group listed beneath it.
+
+## Lookup
+
+Lookups are an option with forms When 2 tables that are related to each other are used in a form.  They allow us to pick an entry from the related form.
+
+[Learn more about the lookup field user experience](../../user/lookup-field.md)
+
+[How to configure a lookup](../../maker/model-driven-apps/form-designer-add-configure-lookup.md)
 
 ## Monitor
 
@@ -189,6 +207,12 @@ Also know as the App Monitor.  It allows us to understand aspects of the perform
 ## Publish
 
 The process by which we make the latest iteration of the app available to users within an environment.
+
+## Publisher
+
+Every solution has a publisher. You specify the publisher when you create a solution.  The solution indicates who developed the app, and wil define the prefix (e.g cr8a3_MyNewTable) for all the solution assets.
+
+[Learn more about publishers](../../maker/data-platform/create-solution#solution-publisher)
 
 ## Record
 
@@ -242,6 +266,8 @@ To get to the site map from the modern app building experience you need to click
 
 A solution is a wrapper for a very wide range of components including tables (entities), cloud flows, security roles.
 
+It is considered best practice when developing model-driven apps to ensure that the assets associated with them are held inside solutions.
+
 The exist in 2 forms.  **Managed Solutions** permit only a small amount of customisation whereas **Unmanaged Solutions** give designers full control over the product that they are creating.
 
 Unmanaged Solutions would be used by developers and these would be exported as managed solutions for use in production environments.
@@ -249,6 +275,8 @@ Unmanaged Solutions would be used by developers and these would be exported as m
 This allows for a high level of control around our application lifecycle management.
 
 [Find out more about solutions here](../maker/data-platform/solutions-overview.md)
+
+[Discover solutions in the context of Dataverse](../../developer\data-platform\introduction-solutions.md)
 
 ## Subarea
 

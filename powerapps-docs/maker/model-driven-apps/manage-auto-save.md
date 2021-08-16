@@ -47,12 +47,15 @@ Auto-save helps app users focus on their work without having to manage saving da
 <a name="BKMK_DisableAutoSaveOrg"></a>   
 ## Disable auto-save for the organization  
  If you determine that auto-save will cause problems with any extensions you are using, you can disable it for your organization. There is no setting to disable auto-save for individual tables or forms.  
+
+
+1. Open a model-driven app, and then on the command bar select **Settings** ![Settings.](../model-driven-apps/media/powerapps-gear.png) > **Advanced  Settings**.
+
+2. Go to **[Settings](advanced-navigation.md#settings)** > **Administration**.  
   
-1. Go to **[Settings](advanced-navigation.md#settings)** > **Administration**.  
+3.  Choose **System Settings**.  
   
-2.  Choose **System Settings**.  
-  
-3.  For the **Enable auto-save for all forms** option, select **No**.  
+4.  For the **Enable auto-save for all forms** option, select **No**.  
   
 <a name="BKMK_DisalbleAutoSaveForm"></a>   
 ## Disable auto-save for a form  
