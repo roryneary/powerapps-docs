@@ -27,9 +27,13 @@ search.app:
 
 # Create a model-driven app quick view form to view information about a related table
 
-In this topic you learn how to create a quick view form and how to add a quick view control to a main form. 
+In this topic you learn how to create a quick view form and how to add a quick view control to a main form.
 
-A quick view form can be added to another form as a quick view control. It provides a template to view information about a related table row within a form for another table row. This means your app users do not need to navigate to a different row to see the information needed to do their work.  
+A quick view form can be added to another form as a quick view control. It provides a template to view information about a related table row within a form for another table row. This means your app users do not need to navigate to a different row to see the information needed to do their work.
+
+In this case we can see the module that relates to a given lesson within the quick view form.  We can see additional columns of metadata, including the image associated with the module. The form then continues with the metadata associated with the lesson table record.
+
+:::image type="content" source="../../maker/model-driven-apps/media/quick-view-form-control.png" alt-text="view quick view form control":::
   
  Quick view controls are associated with a lookup column that is included in a form. If the lookup column value is not set, the quick view control will not be visible. Data in quick view controls cannot be edited and quick view forms do not support form scripts.  
   
@@ -45,9 +49,9 @@ A quick view form can be added to another form as a quick view control. It provi
   
 3. On the toolbar, select **Add form** > **Quick View Form**.  
   
-5. In the **Form** panel, enter a **Display Name** and **Description** to differentiate this quick view form from any others.  
+4. In the **Form** panel, enter a **Display Name** and **Description** to differentiate this quick view form from any others.  
   
-6. In the form designer drag any columns from the **Columns Explorer** into the section on the form.
+5. In the form designer drag any columns from the **Columns Explorer** into the section on the form.
 
     > [!IMPORTANT]
     > Required columns cannot be removed from a form. If you add a Required column to the form and want to remove it, you have to delete the form and then recreate it. When you set the Required property for a column, a row can't be saved without data in this column.
@@ -58,7 +62,19 @@ A quick view form can be added to another form as a quick view control. It provi
   
 <a name="BKMK_EditQVF"></a>   
 ## Edit a quick view form  
- Quick view forms have a simplified layout because they are designed to be viewed within a form section. Only one single column tab is available. You can add only additional single column sections, columns, subgrids, and spacers.   
+ Quick view forms have a simplified layout because they are designed to be viewed within a form section. Only one single column tab is available. You can add only additional single column sections, columns, subgrids, and spacers.
+
+1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
+
+2. Open the solution relevant to your table or access the table directly from the data option in the sidebar.
+
+3. Select the table required.
+
+4. Select Forms tab.
+
+5. Either select the quick view form, or select the 3 dots next to the form.
+
+6. Add or remove columns as required
   
   > [!IMPORTANT]
   > Required columns cannot be deleted. If you add a Required column to the form, you cannot delete it. If you do not want the column in the form you have to delete the form and then recreate it.
@@ -75,7 +91,7 @@ A quick view form can be added to another form as a quick view control. It provi
 
 3. Select a form, which **Type** is **Main**.
 
-4. In the form designer, from the Components pane, select **Quick view**.  
+4. In the form designer, from the Components pane from the , select **Quick view**.  
   
 5.  In the **Select quick view forms** dialog box, select the **Lookup** column, and then select the Lookup column value. More information: [Quick view control properties](quick-view-control-properties-legacy.md).  
 

@@ -57,4 +57,6 @@ A chart can be added to a form or an existing list to a chart can be updated. Fo
 
 [Create a model-driven app system chart](create-edit-system-chart.md)
 
+[Add a Power BI Visual to a model-driven app](add-powerbi-visual.md)
+
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

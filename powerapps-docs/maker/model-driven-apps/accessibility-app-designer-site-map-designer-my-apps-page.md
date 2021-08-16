@@ -21,13 +21,13 @@ search.app:
   - D365CE
 ---
 
-# Accessibility in Power Apps app designer, site map designer, and My Apps page
+# Shortcuts and Accessibility in app designer, site map designer, and My Apps page
 
 Microsoft is committed to making its products and services easier for everyone. For more information see, [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
 
-This topic describes the accessibility features available with
+This topic describes the accessibility features for **app makers** available with [model-driven-apps](../../includes/cc-model-driven-apps.md).
 
-[!INCLUDE[model-driven-apps](../../includes/cc-model-driven-apps.md)].  
+Learn more about [shortcuts for app users.](../../user/keyboard-shortcuts.md)
   
 ## Keyboard shortcuts
 
@@ -49,7 +49,7 @@ This article itemizes the keyboard shortcuts for Power Apps.
 
 ### App designer and site map designer
 
-|**To**|**Shortcut Keys (Windows)**|**Shortcut Keys (Mac)**| 
+|**To**|**Shortcut Keys (Windows)**|**Shortcut Keys (Mac)**|
 |----------------------------------------|-|-|  
 |Go to the next section or major component.|Ctrl + F6|Cmd + F6|  
 |Go to the previous section or major component.|Shift + Ctrl + F6|Shift + Cmd + F6|  
@@ -73,7 +73,7 @@ This article itemizes the keyboard shortcuts for Power Apps.
 |Paste the clipboard contents to the site map.|Ctrl + V|Cmd + V|  
 |Expand and move the focus to the notification area in App Designer.|Alt + Shift + N|Opt + Shift + N|  
 |Collapse the expanded notification area in App Designer.|Esc|esc|  
-  
+
 ## Keyboard navigation
 
  Moving around the app designer, site map designer, and My Apps page by using the keyboard is also supported. This enables people who don’t use a mouse or touchscreen to get around and complete actions.  
@@ -116,6 +116,6 @@ This article itemizes the keyboard shortcuts for Power Apps.
 
 ## See also
 
-[Use keyboard shortcuts in Power Apps](../../user/keyboard-shortcuts.md)
+[Use keyboard shortcuts for app users in Power Apps](../../user/keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

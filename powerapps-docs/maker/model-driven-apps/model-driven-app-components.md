@@ -17,7 +17,7 @@ search.app:
   - D365CE
 ---
 # Understand model-driven app components
-A well designed model-driven app consists of several components you select using the designer to build the appearance and functionality of the finished app. The components and component properties that designers use to make up an app become the metadata. 
+A well designed model-driven app consists of several components you select using the designer to build the appearance and functionality of the finished app. The components and component properties that designers use to make up an app become the metadata.
 
 To understand how each of these components relates to app design, they're separated here into *data*, *UI*, *logic*, and *visualization* categories. 
 
