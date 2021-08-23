@@ -66,7 +66,9 @@ Auto-save helps app users focus on their work without having to manage saving da
   
 1.  Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
 
-2.  Expand **Data**, select **Tables**, select the table that you want, and then select the **Forms** tab.  
+2.  Expand **Data**, select **Tables**, select the table that you want, and then select the **Forms** tab.
+   
+    You can also make adjustments to the tables from with a [solution](../model-driven-apps/model-driven-app-glossary.md#solution).  To do this navigate to **solutions** in the side bar, then select the **table**, followed by the **forms** tab.
   
 3.  Open the form you want to edit.
 
@@ -132,19 +134,21 @@ Auto-save helps app users focus on their work without having to manage saving da
     7.  Select **OK** to close the **Handler Properties** dialog.  
   
     8.  If there are any other event handlers for the `OnSave` event, use the green arrows to move this one to the top.  
+
+        The **Form Properties** should display as follows.  Note in the case show below the update has taken place from within a solution and as a result the customisation prefix (dspin_) is not the same as the one provided by the default pubisher (new_) as we are using an alternate [publisher](../model-driven-apps/model-driven-app-glossary.md#publisher) for the solution.
+
+    :::image type="content" source="../../maker/model-driven-apps/media/disable-autosave-handler-complete.png" alt-text="Advanced Settings":::
   
 7. Select **OK** to close the **Form Properties** dialog.  
   
 8. Select **Save and Close** to close the form.  
   
-9. In the solution explorer, select **Publish All Customizations**.  
+9.  In the solution explorer, select **Publish All Customizations**.  
   
- After you apply this script to the `OnSave` event, when people edit a row using this form the message **unsaved changes** will appear in the bottom right corner of the form just as it would if auto-save was not disabled. But this message will not go away until people select the ![Auto save button.](media/auto-save-icon.png "Auto save button") button next to it.  
+ After you apply this script to the `OnSave` event, when people edit a row using this form the message **unsaved changes** will appear in the bottom right corner of the form just as it would if auto-save was not disabled. But this message will not go away until people select the ![Auto save button.](media/auto-save-icon.png "Auto save button") button next to it.
   
-## Next steps  
- [Create and design forms](create-design-forms.md)      
+## Next steps
 
- 
-
+[Create and design forms](create-design-forms.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

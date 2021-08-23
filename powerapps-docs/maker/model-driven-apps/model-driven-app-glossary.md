@@ -25,6 +25,14 @@ Accessibility is a term that is used to refer to the extent to which people with
 
 [Using screen readers within model-driven apps](../../user/screen-reader.md)
 
+## Admin Center
+
+In the Power Platform admin center is a unified portal for administrators to manage environments and settings for Power Apps, Power Automate and Dynamics customer engagement products.  Note that it does not cover administration settings and features associated with Power BI.
+
+[Learn more about the Power Platform admin center](https://docs.microsoft.com/en-us/power-platform/admin/admin-documentation)
+
+[Learn about the Power BI admin center](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-administering-power-bi-in-your-organization)
+
 ## App Designer
 
 The tool that is used in order to create model-driven apps.  Given that the model-driven and canvas app building experience are starting to converge the new app designer experience (which delivers the app experience during the build process) will begin to replace the classic experience.
@@ -49,18 +57,24 @@ The way in which we manage the life cycle of an application from conception to e
 
 ## Business Process Flow
 
-Logic built into a given table to ensure that users complete records by updating fields in the correct order.  Authored initially using the Power Automate Experience.
+Logic built into a given table to ensure that users complete records by updating fields in the correct order.  
 
-A business process flow is arranged into Stages and each stage defines the fields that need to be completed at that time.
+Whilst these are authored initially using the Power Automate Experience they are experienced within model-driven app as a change in the user interface.
+
+A business process flow is arranged into Stages and each stage defines the columns (fields) that need to be completed at that time.
 Business Process Flows express themselves as dots spread across the screen and each dot represents themselves as the relevant stage.
 
-[Using screen readers within model-driven apps](https://docs.microsoft.com/en-us/power-automate/business-process-flows-overview)
+At any stage one or more fields are be updated before progression onto later stages.
+
+[Business process flows overview](https://docs.microsoft.com/en-us/power-automate/business-process-flows-overview)
 
 ## Business Rule
 
 Business rules are server-side logic that is used with canvas or model-driven apps to set or clear values in one or many columns in a table. They can also be used to validate stored data or show error messages. Model-driven apps can use business rules to show or hide columns, enable or disable columns, and create recommendations based on business intelligence.
 
-[Find out more about business rules here](https://docs.microsoft.com/en-us/learn/modules/define-create-business-rules/1-rules)  
+[Learn more about business rules](../../maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form)
+
+[Business rules - Microsoft Learn content](https://docs.microsoft.com/en-us/learn/modules/define-create-business-rules/1-rules)  
 
 ## Canvas app
 
@@ -192,7 +206,7 @@ Group names appear as a navigation element in an app with the subarea names (tab
 
 ## Lookup
 
-Lookups are an option with forms When 2 tables that are related to each other are used in a form.  They allow us to pick an entry from the related form.
+Lookups are a field type that exist when 2 tables that are related to each.  They can be seen in views table on the many side of a one to many relationship.  They are generally populated using a form on the many side of the relationship.
 
 [Learn more about the lookup field user experience](../../user/lookup-field.md)
 
@@ -210,7 +224,7 @@ The process by which we make the latest iteration of the app available to users 
 
 ## Publisher
 
-Every solution has a publisher. You specify the publisher when you create a solution.  The solution indicates who developed the app, and wil define the prefix (e.g cr8a3_MyNewTable) for all the solution assets.
+Every solution has a publisher. You specify the publisher when you create a solution.  The solution indicates who developed the app, and will define the prefix (e.g cr8a3_MyNewTable) for all the solution assets.
 
 [Learn more about publishers](../../maker/data-platform/create-solution#solution-publisher)
 
@@ -246,7 +260,14 @@ This relates to create, read, write, delete, update and append actions.
 
 Security roles are created and users are put into security roles either as individual user names or by using active directory security groups.
 
-[Find out more about security roles here](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges##%20security-roles)
+We grant access to model-driven apps through security roles.
+
+[Find out more about security roles](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges##%20security-roles)
+
+[General overview of security in Microsoft Dataverse](https://docs.microsoft.com/en-us/power-platform/admin/wp-security)
+
+[Getting started with security roles using content from Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/get-started-security-roles/)
+
 
 ## Site Map
 

@@ -24,19 +24,19 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# Edit filter criteria and change sort order in model-driven app views
+# Edit filter criteria and change sort order in model-driven app table views
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 <a name="BKMK_EditFilterCriteria"></a>   
 
-Along with the columns displayed in a view, the filter criteria applied to a view is a critical part of the value provided by the view. You can add or edit filter criteria and change the sort order for the columns that you include in a view. If a sort order is not set for a view, by default the view is sorted by the primary column in the view in ascending order (A to Z).
+Along with the columns displayed in a view, the filter criteria applied to a view is a critical part of the value provided by the view. It is possible to add or edit **filter criteria** and change the **sort order** for the columns that you include in a view. If a sort order is not set for a view, by default the view is sorted by the **primary column** in the view in ascending order (A to Z).
 
 ## Change the sort order of a view
 
 1.  Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
 
-2.  Expand **Data**, select **Tables**, select the table you want, and then select the **Views** tab.
+2.  Expand **Data**, select **Tables**, select the table required, and then select the **Views** tab.
 
 3.  Select a view to open it in the view designer.
 
@@ -45,15 +45,17 @@ Along with the columns displayed in a view, the filter criteria applied to a vie
 
 4.  Select a column name in the column head, and from the column menu, select **Sort A to Z** or **Sort Z to A**. The sort order is indicated in the column head with an up arrow or a down arrow.
 
-You can also change the sort order by using the view properties panel. 
+The sort order can be changed by using the view properties panel. 
 
-1.  If a sort order has not been set for the view, select **Sort by**, and then select the primary sort by column.
+5.  If a sort order has not been set for the view, select **Sort by**, and then select the primary sort by column.
 
-2.  If you want to sort the view by additional columns, select **Then sort by** and then select a additional sort by column for the view.
+6.  To sort the view by additional columns, select **Then sort by** and then select a additional sort by column for the view.
 
-    You may want to sort by more than one column when you have data that you want to group by the same value in one column, and then sort another column within that group of equal values.
+:::image type="content" source="media/create-or-edit-model-driven-app-view/sort-view-by-multiple-columns.png" alt-text="Sorting a table view by multiple columns":::
 
-3.  To remove a sort expression, select **Remove sort expression** (the **X** button).
+powerapps-docs\maker\model-driven-apps\media\create-or-edit-model-driven-app-view\sort-view-by-multiple-columns.PNG
+
+7.  To remove a sort expression, select **Remove sort expression** (the **X** button).
 
 ## Add or edit filter
 
@@ -72,9 +74,9 @@ You can also change the sort order by using the view properties panel.
     
 5.  To edit a filter expression, select the filter select expression from the View properties panel.
 
-6.  To remove a filter expression, select the **X** button. 
+6.  To remove a filter expression, select the **X** button.
 
-You can also use the expression builder in the view designer to add or edit filters for any columns of the table in the current view or any columns in a related table. More information: [Create or edit filters in model-driven app views](create-edit-view-filters.md)
+The expression builder in the view designer can be used to add or edit filters for any columns of the table in the current view or any columns in a related table. More information: [Create or edit filters in model-driven app views](create-edit-view-filters.md)
 
 ## Use solution explorer to edit filter criteria and change sort order
 
@@ -102,7 +104,9 @@ Change the filter criteria for a view.
 For more information about constructing filter clauses, see [Create, edit, or save an Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search).   
  
 ## Next steps
-[Understand views](create-edit-views.md)
 
+[Table views overview](create-edit-views.md)
+
+[Creating and editing table views](create-edit-views-app-designer.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
