@@ -306,7 +306,7 @@ Subareas (tables) and pages appear under the group that they're configured withi
 
 ## Tab
 
-Every form has at least 1 tab.  They allow us to present a range of sections.  A form can have multiple tabs and this allows us to offer the user a range of ways of looking at the same record.  This is often a better user experience, or a more logical way of presenting the data in the record.
+Every form has at least 1 tab and these are relevant to how we present table record data.  A form can have multiple tabs and this allows us to offer the user a range of ways of looking at the same record.  This is often a better user experience, or a more logical way of presenting the data in the record.
 
 [Learn more about working with tabs](../../maker/model-driven-apps/add-move-or-delete-tabs-on-form.md)
 
@@ -336,13 +336,13 @@ The process by which we confirm if the model driven app has all the components r
 
 ## View
 
-A tabular representation of records in a dataverse table.  Table can have multiple views.
+A tabular representation of records in a Dataverse table.  Table can have multiple views.
 
 Views can be pre-filtered and it is possible to define the specific views that a model driven app will make available to users.
 
 Tables can have multiple views associated with them and we can define the table views relevant to our model-driven apps at the time that we create them.
 
-[Find out more about views here](../../developer/model-driven-apps/customize-entity-views.md)
+[Find out more about views here](../../maker/model-driven-apps/create-edit-views.md)
 
 ## Workflow
 

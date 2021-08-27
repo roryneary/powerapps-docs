@@ -32,7 +32,34 @@ When you create or edit a view you can configure the sort order for either ascen
 
 To change the sort order in the view designer, see [Create a public view in Power Apps](create-edit-views-app-designer.md#create-a-public-view-in-power-apps).
 
-## Change the sort order using solution explorer
+## Change the sort order of a view
+
+1.  Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
+
+2.  Select **Solutions**, open the solution required, select **Tables**, select the table required, and then select the **Views** tab.
+
+3.  Select a view to open it in the view designer.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Edit filters.](media/view-column-menu.png "Edit filters")
+
+4.  Select a column name in the column head, and from the column menu, select **Sort A to Z** or **Sort Z to A**. The sort order is indicated in the column head with an up arrow or a down arrow.
+
+The sort order can be changed by using the view properties panel. 
+
+5.  If a sort order has not been set for the view, select **Sort by**, and then select the primary sort by column.
+
+6.  To sort the view by additional columns, select **Then sort by** and then select a additional sort by column for the view.
+
+:::image type="content" source="media/create-or-edit-model-driven-app-view/sort-view-by-multiple-columns.png" alt-text="Sorting a table view by multiple columns":::
+
+powerapps-docs\maker\model-driven-apps\media\create-or-edit-model-driven-app-view\sort-view-by-multiple-columns.PNG
+
+7.  To remove a sort expression, select **Remove sort expression** (the **X** button).
+
+## Using solution explorer to change the sort order
+
+It is possible to use the solution explorer in order to change the sorting options for a view.
 
 1.  Open [solution explorer](advanced-navigation.md#solution-explorer), expand **Entities**, select the table you want, select **Views**, and then open the view you want.
 
@@ -49,7 +76,11 @@ To change the sort order in the view designer, see [Create a public view in Powe
     > Grids in Unified Interface apps take the list of displayed columns from the underlying FetchXML of the view. If the FetchXML that is returned from Microsoft Dataverse does not have a column, then that column is not displayed. This is in contrast to the classic web application, where if a column is not present in FetchXML but is in LayoutXML, such a column is automatically added to the list of displayed columns. Unified Interface apps use OData directly with FetchXML to retrieve data from the server.
 
 ## Next steps
-[Create or edit a view](create-edit-views.md)
+
+[Table views overview](create-edit-views.md)
+
+[Edit filter criteria](edit-filter-criteria.md)
+
 [Use FetchXML to query data](../../developer/data-platform/use-fetchxml-construct-query.md)
 
 

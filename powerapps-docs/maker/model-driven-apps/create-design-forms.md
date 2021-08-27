@@ -28,21 +28,54 @@ search.app:
 ---
 # Create and design model-driven app forms 
 
-With Power Apps, forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently. 
+With Power Apps model-driven apps, forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently.
 
-In the default solution or an unmanaged solution, you can create new forms or edit existing forms for all tables that allow form customization. 
-In an unmanaged solution, you can edit the managed properties for an unmanaged custom table that was created for the solution.
-If you’re viewing a managed solution, you can’t create new forms or edit existing forms for tables. However, if the managed properties for a table in the managed solution are set to allow customization, you can add or edit forms for that table. 
+:::image type="content" source="../../maker/model-driven-apps/media/form-no-header.png" alt-text="Example model-driven App form":::
+
+In the default solution or an unmanaged solution, it is possible to create new forms or edit existing forms for all tables that allow form customization.
+
+### Forms inside unmanaged solutions
+
+In an unmanaged solution, it is possible to edit the properties, including columns, views and forms, for an unmanaged custom table that was created for the solution.  Unmanaged solutions are where app developers go to author changes that they require and typically exist in a **development** environment.
+
+### Forms inside managed solutions
+
+In managed solution, typically in a **production** environment, it is not possible by default to create new forms or edit existing forms for tables. However, if the managed properties for a table in the managed solution are set to allow customization, it is can add or edit forms for that table.
+
+[Learn more about solutions](../../maker/data-platform/solutions-overview.md)
+
+<a name="BKMK_TypesOfForms"></a>
+## Form Types
+There are different types of forms, and each type has a specific functionality or use.  These include :-
+
+- main (the main user interface)
+- quick create (rapid data entry)
+- quick view (to see related data)
+- card form (a compact view)
   
+For more information: [Types of forms in Power Apps](types-forms.md).  
 
-<a name="BKMK_TypesOfForms"></a> 
-## Type of forms
-There are different types of forms, and each type has a specific functionality or use. More information: [Type of forms in Power Apps](types-forms.md).  
-
-## Main form dialogs
-With the client API, you can use main form dialogs so users can open a related row table on a parent or base form without navigating away from the form. More information: [Open main form in a dialog using client API](../../developer/model-driven-apps/customize-entity-forms.md#open-main-form-in-a-dialog-using-client-api) 
-  
+ 
 <a name="BKMK_FormDifferencesByEntity"></a>   
+
+## Create or edit a form
+
+The fundamentals of building a model-driven app include creating a table, configuring data views in addition to creating and editing forms.
+
+Before beginning to build forms it is worth deciding whether you have all the columns necessary to solve your business problem, in addition to having a sense at the outset as to how to lay these out in terms of sections and tabs.  Broadly speaking, the complexity of your forms will be a reflection of the number of columns in your table in addition to the complexity of your business process.
+
+[Learn to Create, edit, or configure forms using the form designer](create-and-edit-forms.md)
+
+## Delete a form
+To delete a form, sign in to Power Apps and go to **Solutions** > Open the solution you want > select the table that you want > **Forms** tab. Select the form, and then select **Delete** on the command bar.
+
+There are a couple of reasons you may not be able to delete a form.
+
+|Reason  |Work around  |
+|---------|---------|
+| Every table requires at least one main form and it is the only main form for the table.   |  Create a new main form for the table. Then delete the main form you tried earlier.  More information: [Create a form](create-and-edit-forms.md#create-a-form)   |
+| Every table requires one designated fallback form and it is the only fallback form.   | Create a new form for the table and set as the fallback. Or designate another existing form as the fallback form. Then delete the form you tried earlier. More information: [Set the fallback form for a table](control-access-forms.md#set-the-fallback-form-for-a-table)     |
+
 ## Updated versus classic tables  
 Power Apps provides many options for designing forms. With Unified Interface, most tables were updated to better suit the responsive interface. Updated tables as well as your own custom tables include support for the Dynamics 365 for tablets client, business process flows, and business rules. When you use these tables, you can design once and deploy to all clients.  
   
@@ -151,19 +184,8 @@ There are still a number of tables, referred to here as classic tables, that ret
    :::column-end:::
 :::row-end:::
 
-## Create or edit a form
-
-Create or edit forms for model-driven apps. More information: [Create, edit, or configure forms using the form designer](create-and-edit-forms.md)
-
-## Delete a form
-To delete a form, sign in to Power Apps and go to **Solutions** > Open the solution you want > select the table that you want > **Forms** tab. Select the form, and then select **Delete** on the command bar.
-
-There are a couple of reasons you may not be able to delete a form.
-
-|Reason  |Work around  |
-|---------|---------|
-| Every table requires at least one main form and it is the only main form for the table.   |  Create a new main form for the table. Then delete the main form you tried earlier.  More information: [Create a form](create-and-edit-forms.md#create-a-form)   |
-| Every table requires one designated fallback form and it is the only fallback form.   | Create a new form for the table and set as the fallback. Or designate another existing form as the fallback form. Then delete the form you tried earlier. More information: [Set the fallback form for a table](control-access-forms.md#set-the-fallback-form-for-a-table)     |
+## Main form dialogs
+With the client API, you can use main form dialogs so users can open a related row table on a parent or base form without navigating away from the form. More information: [Open main form in a dialog using client API](../../developer/model-driven-apps/customize-entity-forms.md#open-main-form-in-a-dialog-using-client-api) 
 
 ## Form display FAQ
 
@@ -199,7 +221,7 @@ Notice that, when an app user changes the form selection in the form selector dr
    > ![User setting to change default form.](media/change-form-user-setting.png "User setting to change default form")
 
 ### Related topics  
-    
+[Creating custom tables](../../maker/data-platform/create-custom-entity.md)  <br>
 [Assign form order](assign-form-order.md) <br />
 [Control access to forms](control-access-forms.md) <br />
 [How main forms appear in different clients](main-form-presentations.md) <br />
