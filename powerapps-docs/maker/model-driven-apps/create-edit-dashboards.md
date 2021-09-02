@@ -27,16 +27,27 @@ search.app:
 # Create or edit model-driven app dashboards
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+## Dashboard types
 
-There are two types of dashboards, user dashboards and system dashboards. An app user can create a dashboard visible only to them in the app areas that they have privileges to. An admin or customizer creates or customizes system dashboards that, when published, are visible to all app users. A user can choose to set their user dashboard as their default dashboard and override the system dashboard.
+Dashboards are effectively collections of charts relating to app tables.
 
-Dashboards can be standard or interactive. Standard dashboards support adding one or more unrelated components such as charts or lists. Interactive dashboards provide the capability for users to act on a particular row directly from the dashboard. This topic focuses on standard system dashboards. For information about interactive dashboards, see [Configure model-driven app interactive experience dashboards](configure-interactive-experience-dashboards.md).
+There are two types of dashboards, user dashboards and system dashboards. An app user can create a dashboard visible only to them in the app areas that to which they have privileges.
+
+An admin or customizer creates or customizes system dashboards that, when published, are visible to all app users. A user can choose to set their user dashboard as their default dashboard and override the system dashboard.
+
+## Dashboard interactivity
+
+Dashboards can be standard or interactive.
+
+**Standard** dashboards support adding one or more unrelated components such as charts or lists.
+
+**Interactive** dashboards provide the capability for users to act on a particular row directly from the dashboard. This topic focuses on standard system dashboards. For information about interactive dashboards, see [Configure model-driven app interactive experience dashboards](configure-interactive-experience-dashboards.md).
   
 ## Create a new standard dashboard  
   
 1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
   
-1. Select **Solutions**, and then open the solution you want.
+1. Select **Solutions**, and then open the required solution.
 
 1. On the toolbar select **New**, select **Dashboard**, and then choose one of the following layouts:
 
@@ -77,6 +88,8 @@ Dashboards can be standard or interactive. Standard dashboards support adding on
 1. On the solution toolbar, select **Publish**.  
   
 ## Next steps
+
+[Create a system table chart](create-edit-system-chart.md).
 
 [Set properties for a chart or list included in a dashboard](set-properties-chart-list-included-dashboard.md)
 
