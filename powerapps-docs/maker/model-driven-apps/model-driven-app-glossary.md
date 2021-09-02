@@ -35,7 +35,7 @@ In the Power Platform admin center is a unified portal for administrators to man
 
 ## App Designer
 
-The tool that is used in order to create model-driven apps.  Given that the model-driven and canvas app building experience are starting to converge the new app designer experience (which delivers the app experience during the build process) will begin to replace the classic experience.
+The tool that is used to create model-driven apps.  Given that the model-driven and canvas app building experience are starting to converge the new app designer experience (which delivers the app experience during the build process) will begin to replace the classic experience.
 
 It allows us to configure the navigation site map, the tables required and the forms and views relevant to the app.
 
@@ -102,9 +102,15 @@ A field within a dataverse table (or entity).  Columns are similar to fields in 
 
 The nature of the field type defines the type of data required by the column and also the controls (such as date picker or text box) that will be made available when using the control.
 
+Columns also appear when creating forms.  Form **tabs** also have columns, and this defines where we can put our sections.  Additionally form **sections** have columns, and these define where we can place our table columns (fields in this case).
+
 [How to create and edit columns](../../maker/data-platform/create-edit-fields.md)
 
 [Add, configure, move, or delete columns on a form](../../maker/model-driven-apps/add-move-or-delete-fields-on-form.md)
+
+[Add a section to or remove a section from a form](add-move-or-delete-sections-on-form)
+
+[Add a tab to or remove a tab from a form](add-move-or-delete-tabs-on-form.md)
 
 ## Component
 
@@ -298,6 +304,10 @@ This allows for a high level of control around our application lifecycle managem
 [Find out more about solutions here](../maker/data-platform/solutions-overview.md)
 
 [Discover solutions in the context of Dataverse](../../developer\data-platform\introduction-solutions.md)
+
+## Solution Explorer
+
+The name given to the classic interface by which app designers make edits to solution.  Whilst it is a legacy experience it often offers additional functionality with regards to editing aspects of solutions.
 
 ## Subarea
 

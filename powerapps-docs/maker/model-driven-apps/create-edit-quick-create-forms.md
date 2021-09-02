@@ -118,7 +118,7 @@ The following table indicates what form is displayed by default when the **Enabl
 |Activities (`activitypointer`) grid     | Quick create     |
 |Activities (`activitypointer`) associated grid   | Quick create    |
 |Activities (`activitypointer`) sub grid  | Quick create    |
-|Global command bar + button<sup>1</sup>    | Quick create    |
+|Global command bar + button <sup>1</sup>    | Quick create    |
 |Timeline wall   | Quick create    |
 |Activities (`activitypointer`) grid   | Main   |
 |Specific activity grid    | Main   |
