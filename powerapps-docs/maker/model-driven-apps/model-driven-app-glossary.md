@@ -170,10 +170,7 @@ Whilst a dependency is a fundamental aspect of how the app is developed it manif
 
 Microsoft Dynamics is a line of enterprise resource planning (ERP) and customer relationship management (CRM) software applications. Microsoft markets Dynamics applications through a network of reselling partners who provide specialized services.
 
-Dynamics manifests itself as model-driven apps that make use of the Dataverse database within your environment.
-Dataverse table and the two terms can and are used interchangeably.
-
-In most areas of Dataverse we use the term
+[Learn more about Microsoft Dynamics](https://docs.microsoft.com/en-us/dynamics365/)
 
 ## Entity
 
