@@ -108,10 +108,6 @@ Columns also appear when creating forms.  Form **tabs** also have columns, and t
 
 [Add, configure, move, or delete columns on a form](../../maker/model-driven-apps/add-move-or-delete-fields-on-form.md)
 
-[Add a section to or remove a section from a form](add-move-or-delete-sections-on-form)
-
-[Add a tab to or remove a tab from a form](add-move-or-delete-tabs-on-form.md)
-
 ## Component
 
 Components are elements used when creating the elements that make up a model-driven app.
@@ -205,6 +201,10 @@ More information:
 
 [Learn about creating and designing forms](../../maker/model-driven-apps/create-design-forms.md)
 
+[Add a section to or remove a section from a form](add-move-or-delete-sections-on-form)
+
+[Add a tab to or remove a tab from a form](add-move-or-delete-tabs-on-form.md)
+
 ## Group
 
 A part of the [model-driven app navigation experience](../../maker/model-driven-apps/app-navigation.md).
@@ -236,7 +236,7 @@ Every solution has a publisher. You specify the publisher when you create a solu
 
 ## Record
 
-A record contains one or more categories of information about a person, a place, or a thing. For example, a record might contain the name, the email address, and the phone number of a single customer. Other tools refer to a record as a "row" or an "item".  Records exist within dataverse tables.
+A record contains one or more columns of information about a person, a place, or a thing. For example, a record might contain the name, the email address, and the phone number of a single customer. Other tools refer to a record as a "row" or an "item".  Records exist within Dataverse tables.
 
 ## Relationship
 
@@ -273,7 +273,6 @@ We grant access to model-driven apps through security roles.
 [General overview of security in Microsoft Dataverse](https://docs.microsoft.com/en-us/power-platform/admin/wp-security)
 
 [Getting started with security roles using content from Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/get-started-security-roles/)
-
 
 ## Site Map
 
@@ -346,7 +345,7 @@ The process by which we confirm if the model driven app has all the components r
 
 ## View
 
-A tabular representation of records in a Dataverse table.  Table can have multiple views.
+A tabular representation of records in a Dataverse table.  Tables can have multiple views.
 
 Views can be pre-filtered and it is possible to define the specific views that a model driven app will make available to users.
 
