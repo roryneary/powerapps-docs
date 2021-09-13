@@ -28,6 +28,14 @@ search.app:
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
+## Why we need to maintain table views
+
+Views allow the data in our tables to be presented in a way that meets our business need at a given time.
+
+However, the views that are required in an organization may change over time, and it is good practice for us to maintain them in order to keep our application as simple as possible to use and to maintain from a developer perspective.
+
+## System views versus public views
+
 Depending on the type of view, you can either delete it or deactivate it. Deactivated views can be reactivated, while the deletion of a view is permanent.
 
 - Custom public views can both be deleted and deactivated, including public views that the system created.
@@ -40,6 +48,9 @@ Depending on the type of view, you can either delete it or deactivate it. Deacti
 2. Expand **Data**, select **Tables**, select the table you want, and then select the **Views** tab.
 
 3. Select **More commands** ![More Commands button.](media/more-commands.gif "More Commands button for Forms") next to the view you want, and then select **Delete view**. You can also select **Delete view** on the menu bar.
+
+> [!NOTE]
+> Where a model-driven app specifies a view this creates a dependency between the app and the view.  If this is the case the view will need to first be removed from the app using the app designer.
 
 ## Deactivate or activate views  
 
@@ -66,5 +77,7 @@ You can delete any custom public view. Use the steps in [Access view definitions
 ## Next steps
 
 [Create or edit a view](./create-edit-views-app-designer.md)
+
+[Create or edit an app](./create-edit-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

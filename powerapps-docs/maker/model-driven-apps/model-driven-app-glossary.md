@@ -160,6 +160,12 @@ A Dataverse database contains data structures most closely associated with datab
 
 [Find out more about Dataverse here](../../maker/data-platform/data-platform-intro.md)
 
+## Dependency
+
+Dependencies are created when elements of components are reliant on each other for them to work.  For example if a column is used within a view then the view requires this column to exist for it to be able to function.  There are many examples of this throughout Dataverse, such as a model-driven app being dependent on a table if that table is used within the app.
+
+Whilst a dependency is a fundamental aspect of how the app is developed it manifests itself in the most problematic fashion when trying to delete an aspect of a table, form, view or dashboard.  Where this is the case the dependencies can be reviewed by selecting the item to be deleted and then selecting "show dependencies" in the menu.
+
 ## Dynamics
 
 Microsoft Dynamics is a line of enterprise resource planning (ERP) and customer relationship management (CRM) software applications. Microsoft markets Dynamics applications through a network of reselling partners who provide specialized services.
