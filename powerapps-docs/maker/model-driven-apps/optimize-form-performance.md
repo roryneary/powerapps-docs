@@ -24,7 +24,19 @@ search.app:
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly forms will load. Many of these recommendations are about how a developer may implement form scripts for an organization. Be sure to discuss these recommendations with developers who create form scripts for forms used in model-driven apps.  
+Forms that load slowly can reduce productivity and user adoption. 
+
+This article describes recommendations to maximize how quickly forms will load. Many of these recommendations are about how a developer may implement form scripts for an organization.
+
+It is worth discussing these recommendations with developers who create form scripts for forms used in model-driven apps.
+
+## Power Apps Monitor tool
+
+Before looking at how to rectify any issues we can begin by considering how to detect them.
+
+The monitor tool can help diagnose problems with apps and can be used as part of the app testing process. [Learn more about the monitor tool](../monitor-modelapps.md)
+
+:::image type="content" source="../media/monitor-right-pane.png" alt-text="Power Apps Monitor tool":::
   
 <a name="BKMK_FormDesign"></a>
 ## Form design
@@ -59,7 +71,7 @@ If there is code that only supports `OnChange` events for columns or the `OnSave
  When web resources or IFRAMES are included in sections inside a collapsed tab they will not be loaded if the tab is collapsed. They will be loaded when the tab is expanded. When the tab state changes the `TabStateChange` event occurs. Any code that is required to support web resources or IFRAMEs within collapsed tabs can use event handlers for the **TabStateChange** event and reduce code that might otherwise have to occur in the `OnLoad` event.  
   
 **Set default visibility options**  
-Avoid using form scripts in the `OnLoad` event that hide form elements. Instead set the default visibility options for form elements that might be hidden to not be visible by default when the form loads. Then, use scripts in the `OnLoad` event to show those form elements you want to display.  
+Avoid using form scripts in the `OnLoad` event that hide form elements. Instead set the default visibility options for form elements that might be hidden to not be visible by default when the form loads. Then, use scripts in the `OnLoad` event to show the required form elements.  
   
 <a name="BKMK_CommandBar"></a>
 
@@ -76,5 +88,7 @@ Avoid using form scripts in the `OnLoad` event that hide form elements. Instead 
 ## Next steps
 
  [Create and design forms](create-design-forms.md)
+
+ [Debug a model-driven app with Monitor](../monitor-modelapps.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
