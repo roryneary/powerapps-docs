@@ -23,9 +23,11 @@ search.app:
 
 # Define data for your model-driven app
 
-## Why data models matter in mode-driven apps
+## Why data models matter in model-driven apps
 
 Model-driven apps behave according to the nature of the data model that underpins them.  This manifests itself to apps users through [views](model-driven-app-glossary.md#view) of data housed within [tables](model-driven-app-glossary.md#table) and the [forms](model-driven-app-glossary.md#form) used to enter data into [records](model-driven-app-glossary.md#record) those tables.
+
+The process of designing an app using the [App Designer](model-driven-app-glossary.md#app-designer) in most instances comes after the data model has been prepared.
 
 ## How to define a data model
 
