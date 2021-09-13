@@ -26,10 +26,13 @@ search.app:
 ---
 # How model-driven app main forms appear on different devices
 
-The main form is used by all model-driven app clients. This form provides a consistent user experience whether someone is using a web browser,  Dynamics 365 for phones, Dynamics 365 for tablets, or Dynamics 365 for Outlook.  
+The main form is used by all devices used to deliver model-driven apps. This form provides an interpretation of the main form that is best suited to the device being used, whether someone is using a web browser,  Dynamics 365 for phones, Dynamics 365 for tablets, or Dynamics 365 for Outlook.
+
+It is important to understand that by building a main form for a table we are effectively building a form for the table that can be used irrespective of the device and that as this forms a part of the table it travels with the table as part of any solution.
   
-<a name="BKMK_MainFormPresentations"></a>   
-## Main forms  
+<a name="BKMK_MainFormPresentations"></a>
+
+## Main forms
  Any main forms that exist for a table may be displayed differently depending on the factors in the following table below. When you design a main form, consider how it works in each different presentation.  
   
 |Presentation|Description|  
@@ -177,7 +180,9 @@ The main form is used by all model-driven app clients. This form provides a cons
 -   People with the Vice President of Sales role will always see **Sales Form Four**.  
   
 <a name="BKMK_ClassicPresentation"></a>   
-## Classic forms  
+
+## Classic forms
+
  The following diagram shows the main form components used in the classic presentation.  
   
  ![Major form elements.](media/elements.png "Major form elements")  
@@ -188,10 +193,8 @@ The main form is used by all model-driven app clients. This form provides a cons
   
  The form assistant is exposed for certain tables, such as `Article`.  
   
-## Next steps  
- [Create and design forms](create-design-forms.md)   
+## Next steps
 
- 
-
+ [Create and design forms](create-design-forms.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
