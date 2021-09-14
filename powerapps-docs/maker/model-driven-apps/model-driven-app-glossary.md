@@ -190,6 +190,10 @@ Environments are tied to a geographical region and can be a means of ensuring th
 
 [Find out more about environments here](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
 
+## Flow
+
+Cloud flows are functionality offered by Power Automate that allow automation of tasks to take place based upon triggering of conditions such as recurrence, adding or updating of records or simply selection of buttons by users.  They can be run with or without the introduction of new parameters.
+
 ## Form
 
 Forms provide the user interface (UI) that people use to create, view, or edit table records. Use the form designer in the customization tools to create and edit forms.
@@ -225,7 +229,33 @@ Lookups are a field type that exist when 2 tables that are related to each.  The
 
 Also know as the App Monitor.  It allows us to understand aspects of the performance of our model-driven app, but can an also be used for canvas apps.
 
-[Learn how to use the app monitor](../../maker/monitor-modelapps.md) 
+[Learn how to use the app monitor](../../maker/monitor-modelapps.md)
+
+## Page
+
+Modern apps contain the concept of pages, which can be either model driven apps or a canvas based page which allows flexible layout, low-code Fx functions, and Power Apps connector data.
+
+It is a simpler tool for enabling model-driven apps and canvas apps to live together.
+
+[Learn about creating modern apps](app-designer-overview.md)
+
+## Power Automate
+
+A Microsoft product that allows users to streamline repetitive tasks.  Typically this is performed using cloud [flows](model-driven-app-glossary.md#flow), however in the context of model-driven apps [business process flows](model-driven-app-glossary.md#business-process-flow) that direct users to complete table records in a specific fashion are authored within Power Automate.
+
+Power Automate flows exist within an environment and can also exist within Power Apps [solutions](model-driven-app-glossary.md#solution).
+
+[Learn more about Power Automate](https://docs.microsoft.com/en-us/power-automate/getting-started)
+
+## Power BI
+
+A data visualization tool that has the capacity to be embedded within model-driven apps or to live completely independently of them.  Power BI can connect to a very wide range of data sources, of which Dataverse is just one.
+
+Power BI Reports do not live within Dataverse Environments or inside solutions.
+
+[Use Power BI within a model driven app](use-power-bi.md)
+
+[Learn more about Power BI](https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview)
 
 ## Publish
 
@@ -251,9 +281,13 @@ The way in which fields between tables relate to each other.  There are 3 types 
 
 Model driven apps often contain tables with relationships between them.  Where relationships exist we have the ability to navigate to the record within the related table.  For example, when looking at a sale we might navigate to the account table to investigate details relating to the account.
 
+[Learn about creating table relationships](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/create-edit-entity-relationships)
+
 ## Responsive Apps
 
-An app that is **responsive** will render itself in a way that depends on the nature of the device that is accessing the app.  This may even mean that depending on the device there may even be different controls (e.g. a date picker) whether the user is consuming the app on a computer, tablet or mobile. Additionally, tables and fields will render themselves according to size of the device being used.
+An app that is **responsive** will render itself in a way that depends on the nature of the device that is accessing the app.  This may even mean that depending on the device there may even be different controls (e.g. a date picker) whether the user is consuming the app on a computer, tablet or mobile. 
+
+Additionally, tables and fields will render themselves according to size of the device being used.
 
 ## Section
 
