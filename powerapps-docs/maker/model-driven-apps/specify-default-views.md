@@ -46,7 +46,7 @@ Unless someone has 'pinned' a different view in your app as their personal defau
   
 1.  Open [solution explorer](advanced-navigation.md#solution-explorer), expand **Entities**, select relevant table, and then select **Views**.
   
-2.  Select a public view.  
+2.  Select one of the public views.  
   
 3.  On the menu bar, select **More Actions** > **Set Default**.  
 
