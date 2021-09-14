@@ -164,7 +164,10 @@ A Dataverse database contains data structures most closely associated with datab
 
 Dependencies are created when elements of components are reliant on each other for them to work.  For example if a column is used within a view then the view requires this column to exist for it to be able to function.  There are many examples of this throughout Dataverse, such as a model-driven app being dependent on a table if that table is used within the app.
 
-Whilst a dependency is a fundamental aspect of how the app is developed it manifests itself in the most problematic fashion when trying to delete an aspect of a table, form, view or dashboard.  Where this is the case the dependencies can be reviewed by selecting the item to be deleted and then selecting "show dependencies" in the menu.
+Dependencies manifest themselves in numerous ways including when a model-driven app is validated.  They also become apparent in the most problematic fashion when trying to delete an aspect of a table, form, view or dashboard.  Where this is the case the dependencies can be reviewed by selecting the item to be deleted and then selecting "show dependencies" in the menu.
+
+[Validate an app](validate-app.md)
+[Delete a column from a table](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/delete-fields)
 
 ## Dynamics
 
@@ -378,7 +381,9 @@ The Unified Interface for model-driven apps provides a consistent and accessible
 
 ## Validate
 
-The process by which we confirm if the model driven app has all the components required for it to function properly.
+The process by which we confirm if the model-driven app has all the components required for it to function properly.
+
+[Learn how to validate an app](validate-app.md)
 
 ## View
 
