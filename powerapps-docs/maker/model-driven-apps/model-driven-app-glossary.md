@@ -348,6 +348,18 @@ This allows for a high level of control around our application lifecycle managem
 
 The name given to the classic interface by which app designers make edits to solution.  Whilst it is a legacy experience it often offers additional functionality with regards to editing aspects of solutions.
 
+## Sub-grid
+
+Sub-grids are areas of main forms that display data within a Dataverse table, whilst remaining on the form.
+
+Typically this is used to display child records that relate to the parent record currently under review.  For example books written by an author.
+
+Whilst they manifest themselves within a model-driven app they are a property of a form.
+
+[Create a sub-grid](form-designer-add-configure-subgrid.md)
+
+[Sub-grid properties - legacy](sub-grid-properties-legacy.md)
+
 ## Subarea
 
 A part of the [model driven app navigation experience](../../user/navigation.md).

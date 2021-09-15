@@ -20,11 +20,17 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# Sub-grid properties for model-driven app main forms
+# Sub-grid properties for model-driven app main forms (classic)
 
-This article describes the classic form editor. We recommend that you use the modern form designer to create and edit sub-grids for your model-driven app forms. More information: [Add and configure a subgrid component on a form](form-designer-add-configure-subgrid.md)
+This article describes the classic form editor.
 
-You can configure a sub-grid on a form using the classic form designer to display a list of rows or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.
+It is recommended that the **modern form designer** is used to create and edit sub-grids for Dataverse forms. More information: [Add and configure a subgrid component on a form](form-designer-add-configure-subgrid.md)
+
+Sub grids exist within a main form and allow app users to view data within dataverse tables, typically related to the record currently being reviewed.
+
+:::image type="content" source="media/sub-grid-form.png" alt-text="Form sub-grid":::
+
+A sub-grid on a form can be configured using the classic form designer to display a list of rows or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.
 
   > [!div class="mx-imgBorder"] 
   > ![sub-grid properties for show chart only.](media/sub-grid-properties.png "sub-grid properties for show chart only")
