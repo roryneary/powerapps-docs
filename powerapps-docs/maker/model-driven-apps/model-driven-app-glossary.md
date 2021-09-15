@@ -88,6 +88,12 @@ A visual representation of a table of data.  These can take the form of line, ba
 
 [Find out more about creating a system chart here](../../maker/model-driven-apps/create-edit-system-chart.md).
 
+## Classic
+
+The classic interface represents the method in which app developers would make changes to features within their Dataverse environment.
+
+This has been replaced over time by the web-based method of app authoring known as the unified interface.  For many developers now and in the future this will be the only interface they will ever use.
+
 ## Classic App Designer
 
 Modern apps allow for the creation of both Canvas apps and model-driven apps.
@@ -219,6 +225,11 @@ More information:
 
 A part of the [model-driven app navigation experience](../../maker/model-driven-apps/app-navigation.md).
 Group names appear as a navigation element in an app with the subarea names (tables) within the group listed beneath it.
+
+## Legacy
+
+This refers to features that have either been deprecated, or the way in which they are authored has been moved to the web based unified interface.
+
 
 ## Lookup
 
