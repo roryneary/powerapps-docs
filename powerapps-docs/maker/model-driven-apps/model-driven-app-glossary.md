@@ -114,6 +114,12 @@ Columns also appear when creating forms.  Form **tabs** also have columns, and t
 
 [Add, configure, move, or delete columns on a form](../../maker/model-driven-apps/add-move-or-delete-fields-on-form.md)
 
+## Command Bar
+
+The area of a model-driven app that contains 
+
+:::image type="content" source="../../developer/model-driven-apps/media/customization-account-grid-command-bar.png" alt-text="Layout for a Unified Interface app.":::
+
 ## Component
 
 Components are elements used when creating the elements that make up a model-driven app.
@@ -359,7 +365,7 @@ This allows for a high level of control around our application lifecycle managem
 
 The name given to the classic interface by which app designers make edits to solution.  Whilst it is a legacy experience it often offers additional functionality with regards to editing aspects of solutions.
 
-## Sub-grid
+## Subgrid
 
 Sub-grids are areas of main forms that display data within a Dataverse table, whilst remaining on the form.
 
@@ -367,9 +373,9 @@ Typically this is used to display child records that relate to the parent record
 
 Whilst they manifest themselves within a model-driven app they are a property of a form.
 
-[Create a sub-grid](form-designer-add-configure-subgrid.md)
+[Create a subgrid](form-designer-add-configure-subgrid.md)
 
-[Sub-grid properties - legacy](sub-grid-properties-legacy.md)
+[Subgrid properties - legacy](sub-grid-properties-legacy.md)
 
 ## Subarea
 
