@@ -78,7 +78,13 @@ Business rules are server-side logic that is used with canvas or model-driven ap
 
 ## Canvas app
 
-An app which is generated using drag and drop controls configured using Power Fx.  Canvas apps offer the designer significant control over the user experience and can be connected to a very wide range of data sources and data services.  Canvas apps are arranged into screens and controls such as galleries, text boxes and dropdowns are placed onto the screens and configured so that they connect to the data sources and to each other correctly.
+An app which is generated using drag and drop controls configured using Power Fx.  Canvas apps offer the designer significant control over the user experience and can be connected to a very wide range of data sources and data services.  
+
+Canvas apps are arranged into screens and controls such as galleries, text boxes and dropdowns are placed onto the screens and configured so that they connect to the data sources and to each other correctly.
+
+Whereas a model-driven app comes with many preconfigured features such as forms, views and a user interface many Canvas apps are authored from a blank canvas, or a template, so there is often more work to be performed and more outright work using code.
+
+Canvas apps live in Solutions and Environments in the same way as Model-driven apps.
 
 [Find out more about canvas apps here](../canvas-apps/getting-started.md).
 

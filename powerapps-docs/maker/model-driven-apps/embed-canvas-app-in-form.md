@@ -28,15 +28,15 @@ search.app:
 # Embed a canvas app on a model-driven form
 
 ## What are canvas apps?
-Canvas apps enable makers to easily design and create custom layouts using the low-code, WYSIWYG canvas app designer. Canvas apps also enable makers to connect and display data from over 200 data sources on their forms.
+Canvas apps enable makers to easily design and create custom layouts using the low-code, WYSIWYG canvas app designer. Canvas apps also enable makers to connect and display data from over 400 data sources.
 
 ## How embedding canvas apps can help us build better solutions
-With embedded canvas apps, makers can bring the power of canvas apps to their model-driven forms. Using embedded canvas apps, you can easily create rich visual areas on a form and display data from a variety of sources right next to data from the Microsoft Dataverse.
+With embedded canvas apps, makers can bring the power of canvas apps to their model-driven forms. Using embedded canvas apps, it is possible to create rich visual areas on a form and display data from a variety of sources right next to data from the Microsoft Dataverse.
 
    > [!div class="mx-imgBorder"] 
    > ![Embedded canvas app in a model-driven app form.](media/embed-canvas-app-in-form.png "Embedded canvas app in a model-driven app form")
 
-Canvas apps are embedded in model-driven forms in the same way other custom controls are added. An embedded canvas app includes rich data integration capabilities that bring in contextual data from the host model-driven form to the embedded canvas app. 
+Canvas apps are embedded in model-driven forms in the same way other custom controls are added. An embedded canvas app includes rich data integration capabilities that bring in contextual data from the host model-driven form to the embedded canvas app.
 
 ## Embedding using the modern designer (preview)
 
@@ -49,7 +49,7 @@ We can add canvas apps from our environments into our model-driven apps that can
 
 After an embedded canvas app has been added to your model-driven form, learn how to share the embedded canvas app with other users. More information: [Learn how to share an embedded canvas app](share-embedded-canvas-app.md).
 
-For guidelines on working with embedded canvas apps as well as helpful tips to troubleshoot any issues you might encounter, please refer to: [Guidelines on working with embedded canvas apps](embedded-canvas-app-guidelines.md).
+For guidelines on working with embedded canvas apps as well as helpful tips to troubleshoot any issues, please refer to: [Guidelines on working with embedded canvas apps](embedded-canvas-app-guidelines.md).
 
 ## See also
 [What are canvas apps in Power Apps?](../canvas-apps/getting-started.md) <br />
