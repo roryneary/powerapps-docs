@@ -40,7 +40,10 @@ Canvas apps are embedded in model-driven forms in the same way other custom cont
 
 ## Embedding using the modern designer (preview)
 
-The modern designer permits apps built over Dataverse to be embedded into a model-driven app natively.  <br />[Learn more about building modern apps](app-designer-overview.md)
+The **modern designer** permits apps built over Dataverse to be embedded into a model-driven app natively.  
+
+Modern apps introduce the concept of [pages](model-driven-app-glossary.md#page) which can either be canvas apps or model-driven apps.
+<br />[Learn more about building modern apps](app-designer-overview.md)
 
 ## Embedding using the classic designer (current)
 We can add canvas apps from our environments into our model-driven apps that can either be contextually aware, or simply render the app within the model-driven experience. <br />[Learn how to add an embedded canvas app on a model-driven form - classic designer](embedded-canvas-app-add-classic-designer.md).
