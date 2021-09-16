@@ -116,7 +116,7 @@ Columns also appear when creating forms.  Form **tabs** also have columns, and t
 
 ## Command Bar
 
-The area of a model-driven app that contains 
+The area of a model-driven app that contains basic commands universally used by model driven apps.
 
 :::image type="content" source="../../developer/model-driven-apps/media/customization-account-grid-command-bar.png" alt-text="Layout for a Unified Interface app.":::
 
