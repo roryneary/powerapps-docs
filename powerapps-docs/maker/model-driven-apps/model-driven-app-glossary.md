@@ -150,7 +150,7 @@ Controls allow us to interact with information contained within our records.  Th
 
 ## Dashboard
 
-A method of presenting data relating to users in a graphic or chart form.
+A container for one or more charts relating to a table.
 
 [Find out more about dashboards here](../../maker/model-driven-apps/create-edit-dashboards.md)
 

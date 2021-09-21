@@ -38,7 +38,13 @@ A view defines:
 - How the list of rows should be sorted by default.
 - The default filters applied to restrict the rows that will appear.
 
+Once the view has been made available in the app the user can switch between these.
+
+:::image type="content" source="media/create-or-edit-model-driven-app-view/switch-views.gif" alt-text="Configure views in model-driven apps":::
+
 When designing an app the developer decides on which of the public views to make available to app users. These decisions are typically based on the types of user such as sales, or marketing, that will be making use of the app.  
+
+Views can be developed through the table designer or the app designer.
 
 :::image type="content" source="media/configure-views.png" alt-text="Configure views in model-driven apps":::
 
@@ -50,9 +56,9 @@ There are three types of views: *personal*, *system* and *public*.
 - **System view** - As a system administrator or system customizer, you can edit system views. System views are special views the application depends on, which exist for system tables or are automatically created when you create custom tables. These views have specific purposes and some additional capabilities.
 - **Public view** - Public views are general purpose views that you can customize as you see fit. They are important because all app users get to see and are available in the view selector.  It is possible to use them in sub-grids in a form or as a list in a dashboard.
 
-## The purpose of views
+## Views within model-driven apps
 
-A drop-down list of views is frequently displayed in the application so that people have options for different views of the data.
+Users may wish to see data in relation to a table in a range of ways.  A drop-down list of views is frequently displayed in the application so these can be selected.
 
 :::image type="content" source="media/my-views.png" alt-text="My Views in a model-driven app":::
 
@@ -64,7 +70,7 @@ Views are not only used by users within model-driven apps, they can also be used
 
 ### Personal views  
 
-You can create personal views by following these steps:
+Personal views can be created by following these steps:
 
 1. select **Create view** from the command bar in your model-driven app.
 :::image type="content" source="media/create-view.png" alt-text="Create view in model-driven app":::

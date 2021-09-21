@@ -30,7 +30,7 @@ search.app:
 
 <a name="BKMK_EditFilterCriteria"></a>   
 
-Along with the [columns](../model-driven-apps/model-driven-app-glossary.md#Column), displayed in a [view](../model-driven-apps/model-driven-app-glossary.md#view), the filter criteria applied to a view is a critical part of the value provided by the view. It is possible to add or edit **filter criteria** and change the **sort order** for the columns that you include in a view. If a sort order is not set for a view, by default the view is sorted by the **primary column** in the view in ascending order (A to Z).
+Along with the [columns](../model-driven-apps/model-driven-app-glossary.md#Column), displayed in a [view](../model-driven-apps/model-driven-app-glossary.md#view), the filter criteria applied to a view is a critical part of the value provided by the view. It is possible to add or edit **filter criteria** and change the **sort order** for the columns included in a view. If a sort order is not set for a view, by default the view is sorted by the **primary column** in the view in ascending order (A to Z).
 
 ## Editing the filter criteria of a view
 
@@ -46,7 +46,7 @@ Along with the [columns](../model-driven-apps/model-driven-app-glossary.md#Colum
     > [!div class="mx-imgBorder"] 
     > ![Filter by.](media/edit-filter-criteria.png "Filter by")
 
-4.  Select the conditional operator that you want to use.
+4.  Select the conditional operator.
 
 5.  Type or select the comparison value for the condition.
 
@@ -74,7 +74,7 @@ The expression builder in the view designer can be used to add, edit filters or 
     > [!div class="mx-imgBorder"] 
     > ![Edit filters.](media/edit-filter-viewpanel.png "Edit filters")
 
-3. Select the conditional operator that you want to use.
+3. Select the conditional operator.
 
 4. Type or select the comparison value for the condition.
 
@@ -95,7 +95,7 @@ The expression builder in the view designer can be used to add, edit filters or 
 
 4. Select a comparison value.  
 
-    Some filter conditions don't require a comparison value for the condition. For example, the operator **Contains data** doesn't require a comparison value. With other filter conditions, you choose the comparison value from an option set. For example, the **Status** column has an option set that contains the values **Active** and **Inactive**.
+    Some filter conditions don't require a comparison value for the condition. For example, the operator **Contains data** doesn't require a comparison value. With other filter conditions, a comparison value must be chosen from an option set. For example, the **Status** column has an option set that contains the values **Active** and **Inactive**.
 
     > [!div class="mx-imgBorder"] 
     > ![Filter condition.](media/add-condition-filter.png "Filter condition")
@@ -136,7 +136,7 @@ The expression builder in the view designer can be used to add, edit filters or 
 
 ### Group conditions of a filter
 
-1. In the expression builder, select the check box for the conditions that you want to group.
+1. In the expression builder, select the check box for the conditions where grouping is needed.
 
 2. Select **More commands** (...) for one of the conditions, and then select **Make group**.
 
@@ -150,7 +150,7 @@ The expression builder in the view designer can be used to add, edit filters or 
 
 ### Change the filter criteria for a view.
 
-1.  When you create or edit the view in the view designer, in the **Common Tasks** pane, select **Edit Filter Criteria**.  
+1.  When creating or editing the view in the view designer, in the **Common Tasks** pane, select **Edit Filter Criteria**.  
   
 2.  The dialog shows a user interface similar to **Advanced Find**. You can use **AND** and **OR** clauses to specify and group criteria by selecting the filter claus and then selecting **Group AND** or **Group OR**.  
 
