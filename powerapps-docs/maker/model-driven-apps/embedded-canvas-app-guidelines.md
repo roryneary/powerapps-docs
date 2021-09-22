@@ -29,7 +29,7 @@ search.app:
 This topic provides guidance on working with embedded canvas apps as well as helpful tips to troubleshoot any issues faced.
 
 -	Embedded canvas apps are only supported with Unified Interface model-driven apps.
--	Only three embedded canvas apps can be enabled for each form with Web, and one for Tablet and Phone client types. 
+-	Only three embedded canvas apps can be enabled for each form with Web, and one for Tablet and Phone client types.
 -	Multiple embedded canvas apps can be added to the form, but can only enable three at a time for Web and one at a time for Tablet and Phone client types. 
 -	If more than three embedded canvas apps are enabled with the Web client type on a model-driven app form the error message will show as follows "You have more than three canvas apps with Web form factor, the maximum is three for this form factor. The number of canvas apps are limited to three for Web and one for Tablet and Phone form factors."
    - To enable or disable an embedded canvas app see [Enable an embedded canvas app](#enable-an-embedded-canvas-app) and [Disable an embedded canvas app](#disable-an-embedded-canvas-app).
