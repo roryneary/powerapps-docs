@@ -26,19 +26,20 @@ search.app:
 ---
 # Create or edit a model-driven app main form for a table 
 
-In this topic you learn how to create or edit a main form for an table.
+This article describes how to create or edit a main form for an table.
 
-When you create a new form for a table, its form type is **Main**. When the new form opens, it is identical to the form named **Information**. You can add or edit columns, sections, tabs, navigation, and properties associated with the form, and then save the form.
+When a new form is created for a table, its form type is **Main**. When the new form opens, it is identical to the form named **Information**. Columns, sections, tabs, navigation, and properties associated with the form can be edited and the form can then be saved.
 
-Each main form is composed of one or more **tabs**. Each tab can have one or more **sections**. Each section contains one or more **columns**, or fields. If you want to base your new form on an existing one, you can clone a form.
+Each main form is composed of one or more **tabs**. Each tab can have one or more **sections**. Each section contains one or more **columns**, or fields. Forms can be cloned to provide a simpler starting point for form development.
 
-Make sure that you have the System Administrator or System Customizer security role or equivalent permissions to perform this task.
+> [!NOTE]
+> Make sure that the app developer has the System Administrator or System Customizer security role or equivalent permissions within your environment to perform this task.
 
 ## How to create or edit a main form
   
 1.   Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-2.  Expand **Data**, select **Tables**, select the table that you want, and then select the **Forms** tab. 
+2.  Expand **Data**, select **Tables**, select the table required, and then select the **Forms** tab.
 
 3. To create a new main form, on the toolbar select **Add form** > **Main Form**.  
     \-OR-
@@ -59,9 +60,9 @@ Make sure that you have the System Administrator or System Customizer security r
     - [Edit tab properties](add-move-or-delete-tabs-on-form.md#configure-tabs-on-a-form)
     - [Edit section properties](add-move-or-delete-sections-on-form)
 
-5.    When you finish editing the form, select **Save** > **Save As**, enter a name for the form, and then select **OK**.
+5.    When finished editing the form, select **Save** > **Save As**, enter a name for the form, and then select **OK**.
 
-6.    When your customizations are complete, you can publish them: select **Publish**.
+6.    When your customizations are complete, these can be [published](model-driven-app-glossary.md#publish): select **Publish**.
  
 ### Next steps  
 [Overview of the model-driven form designer](form-designer-overview.md)
