@@ -257,6 +257,8 @@ Also know as the App Monitor.  It allows us to understand aspects of the perform
 
 [Learn how to use the app monitor](../../maker/monitor-modelapps.md)
 
+[Use Monitor to understand form performance](monitor-form-checker.md)
+
 ## Page
 
 Modern apps contain the concept of pages, which can be either model driven apps or a canvas based page which allows flexible layout, low-code Fx functions, and Power Apps connector data.
