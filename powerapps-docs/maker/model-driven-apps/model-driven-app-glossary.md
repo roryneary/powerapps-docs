@@ -394,6 +394,8 @@ Subareas (tables) and pages appear under the group that they're configured withi
 
 Every form has at least 1 tab and these are relevant to how we present table record data.  A form can have multiple tabs and this allows us to offer the user a range of ways of looking at the same record.  This is often a better user experience, or a more logical way of presenting the data in the record.
 
+From a site map perspective a tab is a "Group" when using the sitemap designer versus a subarea for tables and an area to hold subareas.
+
 [Learn more about working with tabs](../../maker/model-driven-apps/add-move-or-delete-tabs-on-form.md)
 
 ## Table
