@@ -128,6 +128,12 @@ To share an app you need 2 actions are required.
 
 !["Acquiring the link for a model-driven app"](media/share-model-driven-app/app-designer-copy-web-url-process.gif "Acquiring the link for a model-driven app")
 
+## Using a model-driven app
+
+Documentation has been developed that is dedicated to helping **users** of model driven apps to successfully navigate around them and interact with them in a way that lets them be more productive.
+
+[Learn more about using model-driven apps](https://docs.microsoft.com/en-us/powerapps/user/use-model-driven-apps)
+
 ## Using solutions to assist with Application Lifecycle Management
 
 [Application lifecycle management](../model-driven-apps/model-driven-app-glossary.md#application-lifecycle-management) is the way in which we develop an app from conception to end of life.

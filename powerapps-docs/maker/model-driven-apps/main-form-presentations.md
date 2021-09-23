@@ -35,6 +35,8 @@ This form can be rendered using a web browser,  Dynamics 365 for phones, Dynamic
 Additionally, the main form is an intrinsic part of the table and it travels with the table as part of any solution.  This helps with the [application lifecycle management](model-driven-app-glossary.md#application-lifecycle-management)
 
 [Learn more about all the form types](types-forms.md)
+
+[Notes on Microsoft Dynamics 365](model-driven-app-glossary.md#Dynamics)
   
 <a name="BKMK_MainFormPresentations"></a>
 
