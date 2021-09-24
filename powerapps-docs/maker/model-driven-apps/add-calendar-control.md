@@ -15,6 +15,8 @@ manager: shujoshi
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
+[!INCLUDE [cc-classic-interface-control-migration](../../includes/cc-classic-interface-control-migration.md)]
+
 The **Calendar Control V2** control displays scheduled activities and their associated details in a calendar. Activities can be viewed, created, and deleted in a day, week, or month view. System customizer or system administrator privileges are needed to add the **Calendar Control V2** control.
 
 ## To add the control
