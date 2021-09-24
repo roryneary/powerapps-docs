@@ -2,7 +2,7 @@
 title: "List of controls available for model-driven apps | MicrosoftDocs"
 description: "A list of controls available for use with Power Apps model-driven apps for web, phones, and tablets"
 ms.custom: ""
-ms.date: 03/29/2021
+ms.date: 09/10/2021
 ms.reviewer: "matp"
 ms.service: powerapps
 ms.suite: ""
@@ -57,12 +57,22 @@ To use these controls in the form designer:
 7. Select **Done** when you’re done configuring the control.  
   
 Following are descriptions for each control you can use on forms.  
+
+
+## AI Builder business card reader
+
+Use the AI Builder business card reader control to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. More information: [Use the business card reader component in model-driven apps](/ai-builder/business-card-reader-component-model-driven)
+
+## Arc knob  
+ The arc knob provides a way for users to enter data by sliding the knob, and shows up on the screen as an arc. The arc knob control provides whole number input and display only. Use this control for any numerical and money columns. You can use touch to change the value, you can also focus on the number and edit it using the keypad.  
   
-## Timeline control
+> [!IMPORTANT]
+> - This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
+> - This control isn’t supported on Android 4.2 and 4.3 devices. It impacts the scrolling experience on those versions.  
+  
+## Auto-complete
 
-Provide a timeline of recent, relevant news articles and Twitter tweets for an account. More information: [Set up the timeline control](set-up-timeline-control.md) 
-
-:::image type="content" source="media/timeline-control-example.png" alt-text="Example of the timeline control in a model-driven app.":::
+ The auto-complete control filters an item list as you type and lets you select a value from the drop-down list. For example, you can use this control to let users choose from a dropdown list of states or countries/regions. This control maps to a **Single Line of Text** type column.  
   
 |Property|Description|  
 |--------------|-----------------|  
@@ -99,19 +109,15 @@ Provide a timeline of recent, relevant news articles and Twitter tweets for an a
    
 ## Toggle
 
- The toggle control allows users to choose between binary values, such as on/off and yes/no, by toggling the button.
+The form component control lets users edit information of a related table record directly from another table’s form. For example, here's the form component on a separate tab on the main account form, which lets the user edit a contact record without leaving the account form. More information: [Edit related table records directly from another table’s main form](form-component-control.md)
 
-:::image type="content" source="media/toggle-control-example.png" alt-text="Example toggle control in a model-driven app.":::
-  
-## Star rating
+## Input mask  
 
-Use the star rating to provide a visual representation of a rating. The maximum number of stars you can set is five. You can use this control for whole numbers only; it can’t accept decimal values.  
+ With the input mask control, you set the formatting for a column like phone number or credit card to prevent entering invalid data. For example, if you want users to enter a United States phone number in the format +1-222-555-1011, use the input mask +1-000-000-0000.  
 
-:::image type="content" source="media/star-rating-control-example.png" alt-text="Example of the star rating control in a model-driven app.":::
-  
 > [!NOTE]
->  Be sure to select the **Hide on web** option for this control.  
-  
+>  This only sets formatting to a single line text column.  It does not contain virtual actions like phone calling.  If these actions are required, continue to use the default control.
+
 |Property|Description|  
 |--------------|-----------------|  
 |Max|Select the maximum number of stars for the control from the dropdown list.|  
@@ -122,28 +128,15 @@ Currently only available in classic.
 
  Use the pen control to capture written input such as signatures. The pen control can be configured for multiline text columns for use with web, tablet, and phone clients.
 
-:::image type="content" source="media/pen-control-runtime.png" alt-text="Pen control in a model-driven app.":::
-  
 > [!IMPORTANT]
-> The minimum recommended **Maximum Length** specified for the column this control maps to is 15000.  
->  
-> Currently this control is only available using the classic form designer.
-
-|Property|Description|  
-|--------------|-----------------|  
-|PenMode|Specify **PenMode!Draw**, **PenMode!Erase**, or **PenMode!Select** to determine what happens when a user drags a pointing device in a pen control.|  
-  
-## Auto-complete
-
- The auto-complete control filters an item list as you type and lets you select a value from the drop-down list. For example, you can use this control to let users choose from a dropdown list of states or countries/regions. This control maps to a **Single Line of Text** type column.  
+>  This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
   
 |Property|Description|  
 |--------------|-----------------|  
-|Column|Shows the column the control is mapped to.|  
-|Source|Set the source for the data (Grouped Options, Choice, or View).|  
-|Choice|Select the option set for this column.|  
-|View|Select the table and view for this column.|  
-|Column|Select the column of the view’s primary table to use as the data source.|  
+|Max|Set the maximum value to display on the slider.|  
+|Min|Set the minimum value to display on the slider.|  
+|Value|The value to display on the slider.|  
+|Step|Set the amount to add or subtract from the current value when entering data with this control.|  
   
 ## Multimedia  
 
@@ -182,29 +175,25 @@ You can embed videos to provide a richer customer experience for sales and colum
 |--------------|-----------------|  
 |Step|Set the amount to add or subtract from the current value when entering data with this control.|  
 |Column|Shows the column the control is mapped to.|  
-  
+
 ## Input mask
 
 Currently only available in classic
 
  With the input mask control, you set the formatting for a column like phone number or credit card to prevent entering invalid data. For example, if you want users to enter a United States phone number in the format +1-222-555-1011, use the input mask +1-000-000-0000.  
 
-> [!NOTE]
->  This only sets formatting to a single line text column.  It does not contain virtual actions like phone calling.  If these actions are required, continue to use the default control.
+## Pen control
 
-|Property|Description|  
-|--------------|-----------------|  
-|Mask|Enter the mask to use for validating data as users enter it. You can use a combination of the following characters for the mask:<br /><br /> 0 – Digit<br /><br /> 9 – Digit or space<br /><br /> # – Digit, sign, or space<br /><br /> L – Letter<br /><br /> I – Letter or space<br /><br /> A – Alphanumeric<br /><br /> A – Alphanumeric or space<br /><br /> < – Converts characters that follow to lower case<br /><br /> > – Converts characters that follow to upper case<br /><br /> &#124; – Disables case conversion<br /><br /> \ – Escapes any character, turning it into a literal<br /><br /> All others – Literals|  
-|Column|Shows the column the control is mapped to.|  
-  
-## Linear gauge
+ Use the pen control to capture written input such as signatures. The pen control can be configured for multiline text columns for use with web, tablet, and phone clients.
 
 Currently only available in classic.
 
 The linear gauge lets your users input numerical values by dragging a slider instead of typing in the exact quantity. The slider provides whole number input and display only. Use this control for any numerical and money columns.  
   
 > [!IMPORTANT]
-> This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
+> The minimum recommended **Maximum Length** specified for the column this control maps to is 15000.  
+>  
+> Currently this control is only available using the classic form designer.
 
 |Property|Description|  
 |--------------|-----------------|  
@@ -220,8 +209,8 @@ Currently only available in classic.
  The arc knob provides a way for users to enter data by sliding the knob, and shows up on the screen as an arc. The arc knob control provides whole number input and display only. Use this control for any numerical and money columns. You can use touch to change the value, you can also focus on the number and edit it using the keypad.  
   
 > [!IMPORTANT]
-> - This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
-> - This control isn’t supported on Android 4.2 and 4.3 devices. It impacts the scrolling experience on those versions.  
+>  - This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
+>  - This control isn’t supported on Android 4.2 and 4.3 devices. It impacts the scrolling experience on those versions.  
   
 |Property|Description|  
 |--------------|-----------------|  
@@ -244,33 +233,42 @@ With editable grids, users can do rich in-line editing directly from views and s
 
 The Calendar Control V2 control displays scheduled activities and their associated details in a calendar. You can view, create, and delete your activities in a day, week, or month view. More information: [Add the calendar control to tables](add-calendar-control.md)
 
-:::image type="content" source="media/calendar-v2-control-example.png" alt-text="Example of the version 2 calendar control in a model-driven app.":::
+The rich text editor control provides the app user a WYSIWYG editing area for formatting text. The control's input and output format is HTML. The control allows copied rich text, such as from a web browser or Word, to be pasted into the control. More information: [Add the rich text editor control to a model-driven app](rich-text-editor-control.md)
 
-## Embedded canvas app control
+## Star rating
 
-An embedded canvas app includes rich data integration capabilities that bring in contextual data from the host model-driven form to the embedded canvas app. Display the data you want from a variety of sources right next to data from Microsoft Dataverse. More information: [Add an embedded canvas app on a model-driven form](embedded-canvas-app-add-classic-designer.md)
+Use the star rating to provide a visual representation of a rating. The maximum number of stars you can set is five. You can use this control for whole numbers only; it can’t accept decimal values.  
 
-## Rich text editor
+:::image type="content" source="media/star-rating-control-example.png" alt-text="Example of the star rating control in a model-driven app.":::
+  
+> [!NOTE]
+>  Be sure to select the **Hide on web** option for this control.  
+  
+|Property|Description|  
+|--------------|-----------------|  
+|Max|Select the maximum number of stars for the control from the dropdown list.|  
 
 Currently only available in classic.
 
 The rich text editor control provides the app user a WYSIWYG editing area for formatting text. The control's input and output format is HTML. The control allows copied rich text, such as from a web browser or Word, to be pasted into the control. More information: [Add the rich text editor control to a model-driven app](rich-text-editor-control.md)
 
-## AI Builder business card reader
+The timeline helps users see all customer interaction history across channels, personnel, and the support lifecycle. The timeline is used across Dynamics 365 applications to capture activities like notes, appointments, emails, tasks, and more, to ensure that all interactions with the customer are tracked and visible over time. More information: [Set up the timeline control](set-up-timeline-control.md) 
 
-Use the AI Builder business card reader control to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. More information: [Use the business card reader component in model-driven apps](/ai-builder/business-card-reader-component-model-driven)
+:::image type="content" source="media/timeline-control-example.png" alt-text="Example of the timeline control in a model-driven app.":::
 
-## Form component
+## Timer control
 
 Currently only available in classic.
 
 The form component control lets users edit information of a related table record directly from another table’s form. For example, here's the form component on a separate tab on the main account form, which lets the user edit a contact record without leaving the account form. More information: [Edit related table records directly from another table’s main form](form-component-control.md)
 
-## Quick view
+## Toggle
 
-The quick view control displays data from a row that is selected in a lookup on the form. The data displayed in the control is defined using a quick view form. The data displayed is not editable, but when the primary column is included in the quick view form, it becomes a link to open the related row. More information: [Model-driven app quick view control properties](quick-view-control-properties-legacy.md)
+ The toggle control allows users to choose between binary values, such as on/off and yes/no, by toggling the button.
 
-## News control
+:::image type="content" source="media/toggle-control-example.png" alt-text="Example toggle control in a model-driven app.":::
+  
+## Website preview
 
 Currently only available in classic.
 
