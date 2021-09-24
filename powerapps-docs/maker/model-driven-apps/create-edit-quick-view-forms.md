@@ -31,11 +31,13 @@ In this topic describes how to create a quick view form and how to add a quick v
 
 A quick view form can be added to another form as a quick view control. It provides a template to view information about a **related table row** within a form for another table row. This means app users do not need to navigate to a different row to see the information needed to do their work.
 
-In this case we can see the module that relates to a given lesson within the quick view form.  A 1 to many relationship exists between the two tables for this to be possible.  We can see additional columns of metadata, including the image associated with the module. The form then continues with the metadata associated with the lesson table record.
+Note that whilst it sits between a view and a form it is authored as a **form**, rather than the former.
+
+In the example shown we can see the module that relates to a given lesson within the quick view form.  A 1 to many relationship exists between the two tables for this to be possible.  We can see additional columns of metadata, including the image associated with the module. The form then continues with the metadata associated with the lesson table record.
 
 :::image type="content" source="../../maker/model-driven-apps/media/quick-view-form-control.png" alt-text="view quick view form control":::
   
- Quick view controls are associated with a lookup column that is included in a form. If the lookup column value is not set, the quick view control will not be visible. Data in quick view controls **cannot be edited** and quick view forms do not support form scripts.  
+ Quick view controls are associated with a lookup column that is included in a form. If the lookup column value is not set, the quick view control will not be visible. Data in quick view form controls **cannot be edited** and they do not support form scripts.  
   
  Because quick view forms are viewed using a quick view control in a form, they do not include header, footer, or navigation areas. Security roles cannot be assigned to quick view forms and they cannot be activated or deactivated.  
   

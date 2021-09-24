@@ -43,6 +43,9 @@ The [solutions](../model-driven-apps/model-driven-app-glossary.md#solution) area
 
 Use solution explorer to perform app making and customization tasks that can’t be completed from the Power Apps home page.
 
+> [!div class="mx-imgBorder"] 
+> ![Solution explorer.](media/model-driven-app-overview/solutionexplorer-entitiescollapsed.png "Solution explorer")
+
 1. From a Power Apps model-driven app, select **Settings** ![Settings.](../model-driven-apps/media/powerapps-gear.png) on the app toolbar, and then select **Advanced Settings**.
 
 2. Select **Settings** > **Customizations** > **Customize the System**, and then select the settings area that you want.

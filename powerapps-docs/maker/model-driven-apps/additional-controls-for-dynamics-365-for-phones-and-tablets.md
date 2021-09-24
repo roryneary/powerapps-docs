@@ -27,24 +27,34 @@ search.app:
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-You can use a rich set of additional controls to create a more touch-friendly experience on model-driven apps. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
+Controls allow us to visualize data within our table columns in addition to enabling us to interact with them.
+
+In some cases additional controls exist that provide a more touch-friendly experience on model-driven apps. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
+
+Some, but not all of the controls can only be configured using the classic interface.  These will be migrated over time to enable introduction to a form using the drag and drop experience.
+
+## Using controls in the form designer
 
 To use these controls in the form designer:  
   
-1. Select the column or grid you want to add the control to.  
-  
-1. On the **Properties** tab in the left pane, select **Components**.  
-  
-1. Select **+ Component** to display the available controls, and then select the control you want.  
+1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+1. Expand **Dataverse** in the left hand menu and select **tables**
+1. Select the required table and then select the **Forms** tab.
+1. Select the [main form](model-driven-app-glossary.md#main-form) to be edited.
+   
+2. Select the **section** you would like to add the control to.  
+ 
+4. Select **+ Component** to display the available controls, and then select the control required.  
   
     > [!NOTE]
     >  Different controls are available depending on the column or grid type. For example, star rating controls are only available for whole number columns.  
+    >  Some controls are only available in the classic forms editor interface.  To access these you must **switch to classic** from the menu at the top.
   
-1. Select the devices (web, tablet, and phone) you want the control to appear on.  
+5. Select the devices (web, tablet, and phone) you want the control to appear on.  
   
-1. Configure the values for each property.  
+6. Configure the values for each property.  
   
-1. Select **Done** when you’re done configuring the control.  
+7. Select **Done** when you’re done configuring the control.  
   
 Following are descriptions for each control you can use on forms.  
   
@@ -82,36 +92,11 @@ Provide a timeline of recent, relevant news articles and Twitter tweets for an a
 |CC_Timeline_Filter_Desc|Description for Filter.|  
 |CC_Timeline_Footer|Web resource to display as the footer of the timeline.|  
 |CC_Timeline_Footer_Desc|Description for Footer column.|  
-  
-## Linear slider
-
-The linear slider control lets your users input numerical values by dragging a slider and also provides an option for typing in the quantity. The slider provides whole number input and display only. Use this control for any numerical or money column.  
-
-> [!IMPORTANT]
->  This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
-  
-|Property|Description|  
-|--------------|-----------------|  
-|Max|Set the maximum value to display on the slider.|  
-|Min|Set the minimum value to display on the slider.|  
-|Value|The value to display on the slider.|  
-|Step|Set the amount to add or subtract from the current value when entering data with this control.|  
-  
+   
 ## Choices
 
  The choice control presents a set of options for your users to choose from when entering data. More information: [Choices](../data-platform/types-of-fields.md#choices) 
    
-## Flip switch
-
-The flip switch is like an on/off switch, providing a choice between two values.  
-
-> [!IMPORTANT]
->  This control will be deprecated in April 2021. Instead, you can start using the [Toggle](#toggle) control. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
- 
-|Property|Description|  
-|--------------|-----------------|  
-|Field|Shows the field that the control is mapped to.|  
-
 ## Toggle
 
  The toggle control allows users to choose between binary values, such as on/off and yes/no, by toggling the button.
@@ -131,36 +116,9 @@ Use the star rating to provide a visual representation of a rating. The maximum 
 |--------------|-----------------|  
 |Max|Select the maximum number of stars for the control from the dropdown list.|  
   
-## Radial knob
-
-The radial knob provides a way for users to enter data by sliding the knob, and shows up on the screen as a circle. The radial knob control provides whole number input and display only. Use this control for any numerical or money columns. You can use touch to change the value, or you can use the keypad to focus on the number and edit it.  
-  
-> [!IMPORTANT]
->  - This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
->  - This control isn’t supported on Android 4.2 and 4.3 devices. It impacts the scrolling experience on those versions.  
-  
-|Property|Description|  
-|--------------|-----------------|  
-|Max|Set the maximum value to display on the gauge.|  
-|Min|Set the minimum value to display on the gauge.|  
-|Value|Get or set the value to display on the gauge.|  
-|Step|Set the amount to add or subtract from the current value when entering data with this control.|  
-  
-## Website preview
-
- Use the website preview control to map a URL column and show a preview of the website.  
-  
-> [!IMPORTANT]
->  - This control will be deprecated in April 2021. More information: [Model-driven app controls deprecation](/power-platform/important-changes-coming#model-driven-app-controls-deprecation)
->  - By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into a Power Apps app or Dynamics 365 apps such as Dynamics 365 Sales or Dynamics 365 Customer Service are subject to our privacy statement at [Microsoft Privacy and Cookies](https://go.microsoft.com/fwlink/p/?LinkId=521839).  
->   
->  [Privacy notices](use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
-  
-|Property|Description|  
-|--------------|-----------------|  
-|Column|Shows the column the control is mapped to.|  
-  
 ## Pen control
+
+Currently only available in classic.
 
  Use the pen control to capture written input such as signatures. The pen control can be configured for multiline text columns for use with web, tablet, and phone clients.
 
@@ -188,6 +146,9 @@ The radial knob provides a way for users to enter data by sliding the knob, and 
 |Column|Select the column of the view’s primary table to use as the data source.|  
   
 ## Multimedia  
+
+Currently only available in classic.
+
 You can embed videos to provide a richer customer experience for sales and column people on the go. Use this control to map to a URL column that contains the audio or video link to play in the control.  
   
 > [!NOTE]
@@ -211,7 +172,8 @@ You can embed videos to provide a richer customer experience for sales and colum
 |--------------|-----------------|  
 |Media|Enter the URL of the media to play in this control.|  
   
-## Number input  
+## Number input
+
  Use the number input control to help users enter data quickly. Users only have to tap the plus and minus buttons to change a numeric value in increments you set. Use this control for any numerical or money column. Users can also type a number directly into the column. This column is only supported in edit mode.  
 
 :::image type="content" source="media/number-input-control-example.png" alt-text="Example of the number input control in a model-driven app.":::
@@ -221,7 +183,9 @@ You can embed videos to provide a richer customer experience for sales and colum
 |Step|Set the amount to add or subtract from the current value when entering data with this control.|  
 |Column|Shows the column the control is mapped to.|  
   
-## Input mask  
+## Input mask
+
+Currently only available in classic
 
  With the input mask control, you set the formatting for a column like phone number or credit card to prevent entering invalid data. For example, if you want users to enter a United States phone number in the format +1-222-555-1011, use the input mask +1-000-000-0000.  
 
@@ -235,6 +199,8 @@ You can embed videos to provide a richer customer experience for sales and colum
   
 ## Linear gauge
 
+Currently only available in classic.
+
 The linear gauge lets your users input numerical values by dragging a slider instead of typing in the exact quantity. The slider provides whole number input and display only. Use this control for any numerical and money columns.  
   
 > [!IMPORTANT]
@@ -247,7 +213,10 @@ The linear gauge lets your users input numerical values by dragging a slider ins
 |Value|Get or set the value to display on the gauge.|  
 |Step|Set the amount to add or subtract from the current value when entering data with this control.|  
   
-## Arc knob  
+## Arc knob
+
+Currently only available in classic.
+
  The arc knob provides a way for users to enter data by sliding the knob, and shows up on the screen as an arc. The arc knob control provides whole number input and display only. Use this control for any numerical and money columns. You can use touch to change the value, you can also focus on the number and edit it using the keypad.  
   
 > [!IMPORTANT]
@@ -267,6 +236,8 @@ The timer control shows your users how much time is available to complete an act
 
 ## Editable grid
 
+An editable grid is simply a subgrid which has had the editable feature configured for it.  Whilst subgrids can be introduced using the form designer, classic mode is required to change the setting to make these editable.
+
 With editable grids, users can do rich in-line editing directly from views and sub-grids whether they're using a web app, tablet, or phone. More information: [Make model-driven app grids (lists) editable using the editable grid control](make-grids-lists-editable-custom-control.md)
 
 ## Calendar control V2
@@ -281,6 +252,8 @@ An embedded canvas app includes rich data integration capabilities that bring in
 
 ## Rich text editor
 
+Currently only available in classic.
+
 The rich text editor control provides the app user a WYSIWYG editing area for formatting text. The control's input and output format is HTML. The control allows copied rich text, such as from a web browser or Word, to be pasted into the control. More information: [Add the rich text editor control to a model-driven app](rich-text-editor-control.md)
 
 ## AI Builder business card reader
@@ -289,6 +262,8 @@ Use the AI Builder business card reader control to detect business cards and ext
 
 ## Form component
 
+Currently only available in classic.
+
 The form component control lets users edit information of a related table record directly from another table’s form. For example, here's the form component on a separate tab on the main account form, which lets the user edit a contact record without leaving the account form. More information: [Edit related table records directly from another table’s main form](form-component-control.md)
 
 ## Quick view
@@ -296,6 +271,8 @@ The form component control lets users edit information of a related table record
 The quick view control displays data from a row that is selected in a lookup on the form. The data displayed in the control is defined using a quick view form. The data displayed is not editable, but when the primary column is included in the quick view form, it becomes a link to open the related row. More information: [Model-driven app quick view control properties](quick-view-control-properties-legacy.md)
 
 ## News control
+
+Currently only available in classic.
 
 Gain valuable insights from the latest news about your customers, competitors, and contacts. The news control delivers relevant news from Bing News. More information: [Set up and use the news control](stay-current-with-news-control.md)
 

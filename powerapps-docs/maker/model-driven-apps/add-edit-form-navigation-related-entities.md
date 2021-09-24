@@ -29,7 +29,7 @@ search.app:
 When an app user clicks one of these links in a row, the associated view for the table is displayed. In this topic the form navigation pane is used to add links to related tables.
   
 1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
-1. Select **Solutions** and select the required solution or create a new solution.
+1. Expand **Dataverse** in the left hand menu and select **tables**
 1. Select the required table and then select the **Forms** tab.
 1. In the list, open a form with the type of **Main** to edit it.
 1. Select **Switch to classic** to edit the form in the classic form designer.

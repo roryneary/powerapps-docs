@@ -78,7 +78,13 @@ Business rules are server-side logic that is used with canvas or model-driven ap
 
 ## Canvas app
 
-An app which is generated using drag and drop controls configured using Power Fx.  Canvas apps offer the designer significant control over the user experience and can be connected to a very wide range of data sources and data services.  Canvas apps are arranged into screens and controls such as galleries, text boxes and dropdowns are placed onto the screens and configured so that they connect to the data sources and to each other correctly.
+An app which is generated using drag and drop controls configured using Power Fx.  Canvas apps offer the designer significant control over the user experience and can be connected to a very wide range of data sources and data services.  
+
+Canvas apps are arranged into screens and controls such as galleries, text boxes and dropdowns are placed onto the screens and configured so that they connect to the data sources and to each other correctly.
+
+Whereas a model-driven app comes with many preconfigured features such as forms, views and a user interface many Canvas apps are authored from a blank canvas, or a template, so there is often more work to be performed and more outright work using code.
+
+Canvas apps live in Solutions and Environments in the same way as Model-driven apps.
 
 [Find out more about canvas apps here](../canvas-apps/getting-started.md).
 
@@ -87,6 +93,12 @@ An app which is generated using drag and drop controls configured using Power Fx
 A visual representation of a table of data.  These can take the form of line, bar, pie chart or donut chart.
 
 [Find out more about creating a system chart here](../../maker/model-driven-apps/create-edit-system-chart.md).
+
+## Classic
+
+The classic interface represents the method in which app developers would make changes to features within their Dataverse environment.
+
+This has been replaced over time by the web-based method of app authoring known as the unified interface.  For many developers now and in the future this will be the only interface they will ever use.
 
 ## Classic App Designer
 
@@ -108,9 +120,11 @@ Columns also appear when creating forms.  Form **tabs** also have columns, and t
 
 [Add, configure, move, or delete columns on a form](../../maker/model-driven-apps/add-move-or-delete-fields-on-form.md)
 
-[Add a section to or remove a section from a form](add-move-or-delete-sections-on-form)
+## Command Bar
 
-[Add a tab to or remove a tab from a form](add-move-or-delete-tabs-on-form.md)
+The area of a model-driven app that contains basic commands universally used by model driven apps.
+
+:::image type="content" source="../../developer/model-driven-apps/media/customization-account-grid-command-bar.png" alt-text="Layout for a Unified Interface app.":::
 
 ## Component
 
@@ -136,7 +150,7 @@ Controls allow us to interact with information contained within our records.  Th
 
 ## Dashboard
 
-A method of presenting data relating to users in a graphic or chart form.
+A container for one or more charts relating to a table.
 
 [Find out more about dashboards here](../../maker/model-driven-apps/create-edit-dashboards.md)
 
@@ -164,14 +178,20 @@ A Dataverse database contains data structures most closely associated with datab
 
 [Find out more about Dataverse here](../../maker/data-platform/data-platform-intro.md)
 
+## Dependency
+
+Dependencies are created when elements of components are reliant on each other for them to work.  For example if a column is used within a view then the view requires this column to exist for it to be able to function.  There are many examples of this throughout Dataverse, such as a model-driven app being dependent on a table if that table is used within the app.
+
+Dependencies manifest themselves in numerous ways including when a model-driven app is validated.  They also become apparent in the most problematic fashion when trying to delete an aspect of a table, form, view or dashboard.  Where this is the case the dependencies can be reviewed by selecting the item to be deleted and then selecting "show dependencies" in the menu.
+
+[Validate an app](validate-app.md)
+[Delete a column from a table](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/delete-fields)
+
 ## Dynamics
 
 Microsoft Dynamics is a line of enterprise resource planning (ERP) and customer relationship management (CRM) software applications. Microsoft markets Dynamics applications through a network of reselling partners who provide specialized services.
 
-Dynamics manifests itself as model-driven apps that make use of the Dataverse database within your environment.
-Dataverse table and the two terms can and are used interchangeably.
-
-In most areas of Dataverse we use the term
+[Learn more about Microsoft Dynamics](https://docs.microsoft.com/en-us/dynamics365/)
 
 ## Entity
 
@@ -191,6 +211,10 @@ Environments are tied to a geographical region and can be a means of ensuring th
 
 [Find out more about environments here](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
 
+## Flow
+
+Cloud flows are functionality offered by Power Automate that allow automation of tasks to take place based upon triggering of conditions such as recurrence, adding or updating of records or simply selection of buttons by users.  They can be run with or without the introduction of new parameters.
+
 ## Form
 
 Forms provide the user interface (UI) that people use to create, view, or edit table records. Use the form designer in the customization tools to create and edit forms.
@@ -201,14 +225,29 @@ More information:
 
 [Form Types](../../maker/model-driven-apps/types-forms.md)
 
-[Cpening the form editor](../../maker/model-driven-apps/open-form-editor.md)
+[Cpening the form designer](../../maker/model-driven-apps/open-form-editor.md)
 
 [Learn about creating and designing forms](../../maker/model-driven-apps/create-design-forms.md)
+
+[Add a section to or remove a section from a form](add-move-or-delete-sections-on-form)
+
+[Add a tab to or remove a tab from a form](add-move-or-delete-tabs-on-form.md)
+
+## Form designer
+
+The design experience for creating and editing forms.
+
+[Cpening the form designer](../../maker/model-driven-apps/open-form-editor.md)
 
 ## Group
 
 A part of the [model-driven app navigation experience](../../maker/model-driven-apps/app-navigation.md).
 Group names appear as a navigation element in an app with the subarea names (tables) within the group listed beneath it.
+
+## Legacy
+
+This refers to features that have either been deprecated, or the way in which they are authored has been moved to the web based unified interface.
+
 
 ## Lookup
 
@@ -218,11 +257,45 @@ Lookups are a field type that exist when 2 tables that are related to each.  The
 
 [How to configure a lookup](../../maker/model-driven-apps/form-designer-add-configure-lookup.md)
 
+## Main form
+
+Every table has at least one main form.  It represents the primary method of interaction with a record.  The main form is responsive to the device using the form and can contain controls that are optimized to the device whether it be phone, tablet or web.  It is edited using the form designer.
+
+[Learn about other form types](../../maker/model-driven-apps/types-forms.md)
+
 ## Monitor
 
 Also know as the App Monitor.  It allows us to understand aspects of the performance of our model-driven app, but can an also be used for canvas apps.
 
-[Learn how to use the app monitor](../../maker/monitor-modelapps.md) 
+[Learn how to use the app monitor](../../maker/monitor-modelapps.md)
+
+[Use Monitor to understand form performance](monitor-form-checker.md)
+
+## Page
+
+Modern apps contain the concept of pages, which can be either model driven apps or a canvas based page which allows flexible layout, low-code Fx functions, and Power Apps connector data.
+
+It is a simpler tool for enabling model-driven apps and canvas apps to live together.
+
+[Learn about creating modern apps](app-designer-overview.md)
+
+## Power Automate
+
+A Microsoft product that allows users to streamline repetitive tasks.  Typically this is performed using cloud [flows](model-driven-app-glossary.md#flow), however in the context of model-driven apps [business process flows](model-driven-app-glossary.md#business-process-flow) that direct users to complete table records in a specific fashion are authored within Power Automate.
+
+Power Automate flows exist within an environment and can also exist within Power Apps [solutions](model-driven-app-glossary.md#solution).
+
+[Learn more about Power Automate](https://docs.microsoft.com/en-us/power-automate/getting-started)
+
+## Power BI
+
+A data visualization tool that has the capacity to be embedded within model-driven apps or to live completely independently of them.  Power BI can connect to a very wide range of data sources, of which Dataverse is just one.
+
+Power BI Reports do not live within Dataverse Environments or inside solutions.
+
+[Use Power BI within a model driven app](use-power-bi.md)
+
+[Learn more about Power BI](https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview)
 
 ## Publish
 
@@ -236,7 +309,7 @@ Every solution has a publisher. You specify the publisher when you create a solu
 
 ## Record
 
-A record contains one or more categories of information about a person, a place, or a thing. For example, a record might contain the name, the email address, and the phone number of a single customer. Other tools refer to a record as a "row" or an "item".  Records exist within dataverse tables.
+A record contains one or more columns of information about a person, a place, or a thing. For example, a record might contain the name, the email address, and the phone number of a single customer. Other tools refer to a record as a "row" or an "item".  Records exist within Dataverse tables.
 
 ## Relationship
 
@@ -248,9 +321,13 @@ The way in which fields between tables relate to each other.  There are 3 types 
 
 Model driven apps often contain tables with relationships between them.  Where relationships exist we have the ability to navigate to the record within the related table.  For example, when looking at a sale we might navigate to the account table to investigate details relating to the account.
 
+[Learn about creating table relationships](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/create-edit-entity-relationships)
+
 ## Responsive Apps
 
-An app that is **responsive** will render itself in a way that depends on the nature of the device that is accessing the app.  This may even mean that depending on the device there may even be different controls (e.g. a date picker) whether the user is consuming the app on a computer, tablet or mobile. Additionally, tables and fields will render themselves according to size of the device being used.
+An app that is **responsive** will render itself in a way that depends on the nature of the device that is accessing the app.  This may even mean that depending on the device there may even be different controls (e.g. a date picker) whether the user is consuming the app on a computer, tablet or mobile. 
+
+Additionally, tables and fields will render themselves according to size of the device being used.
 
 ## Section
 
@@ -273,7 +350,6 @@ We grant access to model-driven apps through security roles.
 [General overview of security in Microsoft Dataverse](https://docs.microsoft.com/en-us/power-platform/admin/wp-security)
 
 [Getting started with security roles using content from Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/get-started-security-roles/)
-
 
 ## Site Map
 
@@ -309,6 +385,18 @@ This allows for a high level of control around our application lifecycle managem
 
 The name given to the classic interface by which app designers make edits to solution.  Whilst it is a legacy experience it often offers additional functionality with regards to editing aspects of solutions.
 
+## Subgrid
+
+Sub-grids are areas of main forms that display data within a Dataverse table, whilst remaining on the form.
+
+Typically this is used to display child records that relate to the parent record currently under review.  For example books written by an author.
+
+Whilst they manifest themselves within a model-driven app they are a property of a form.
+
+[Create a subgrid](form-designer-add-configure-subgrid.md)
+
+[Subgrid properties - legacy](sub-grid-properties-legacy.md)
+
 ## Subarea
 
 A part of the [model driven app navigation experience](../../user/navigation.md).
@@ -317,6 +405,8 @@ Subareas (tables) and pages appear under the group that they're configured withi
 ## Tab
 
 Every form has at least 1 tab and these are relevant to how we present table record data.  A form can have multiple tabs and this allows us to offer the user a range of ways of looking at the same record.  This is often a better user experience, or a more logical way of presenting the data in the record.
+
+From a site map perspective a tab is a "Group" when using the sitemap designer versus a subarea for tables and an area to hold subareas.
 
 [Learn more about working with tabs](../../maker/model-driven-apps/add-move-or-delete-tabs-on-form.md)
 
@@ -334,6 +424,12 @@ Tables can relate to other tables and these are defined via the relationships th
 
 [Find out more about configuring tables here](../../maker/data-platform/entity-overview.md)
 
+## Table designer
+
+The design experience for creating and editing tables.  This allows us to create tables, columns, relationships, business rules and views.
+
+[Create a custom table using the table designer](../../maker/data-platform/data-platform-create-entity)
+
 ## Unified Interface
 
 The Unified Interface for model-driven apps provides a consistent and accessible user experience across devices—whether on a desktop, laptop, tablet, or phone.  The predecessor the the unified interface was know as the web interface.
@@ -342,11 +438,13 @@ The Unified Interface for model-driven apps provides a consistent and accessible
 
 ## Validate
 
-The process by which we confirm if the model driven app has all the components required for it to function properly.
+The process by which we confirm if the model-driven app has all the components required for it to function properly.
+
+[Learn how to validate an app](validate-app.md)
 
 ## View
 
-A tabular representation of records in a Dataverse table.  Table can have multiple views.
+A tabular representation of records in a Dataverse table.  Tables can have multiple views.
 
 Views can be pre-filtered and it is possible to define the specific views that a model driven app will make available to users.
 

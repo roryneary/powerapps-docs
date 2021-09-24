@@ -128,6 +128,12 @@ To share an app you need 2 actions are required.
 
 !["Acquiring the link for a model-driven app"](media/share-model-driven-app/app-designer-copy-web-url-process.gif "Acquiring the link for a model-driven app")
 
+## Using a model-driven app
+
+Documentation has been developed that is dedicated to helping **users** of model driven apps to successfully navigate around them and interact with them in a way that lets them be more productive.
+
+[Learn more about using model-driven apps](https://docs.microsoft.com/en-us/powerapps/user/use-model-driven-apps)
+
 ## Using solutions to assist with Application Lifecycle Management
 
 [Application lifecycle management](../model-driven-apps/model-driven-app-glossary.md#application-lifecycle-management) is the way in which we develop an app from conception to end of life.
@@ -146,6 +152,22 @@ It is regarded as best practice when creating model-driven apps that these are d
 
 [Create a solution](../../maker/data-platform/create-solution)
 
+## Minimum requirements for building a model-driven app
+
+Model-driven apps can be complex, however the minimum requirements for building them are relatively straightforward.  These are as follows :-
+
+- A Microsoft Power Apps [license](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
+- [Capacity](https://docs.microsoft.com/en-us/power-platform/admin/capacity-storage) within the organization to create a Dataverse [Environment](model-driven-app-glossary.md#Environment) (This is a function of the Power Apps and Dynamics licenses held)
+- A Dataverse Environment
+- Rights for the developer to work as an [administrator](https://docs.microsoft.com/en-us/power-platform/admin/database-security) within the environment
+- A Dataverse [Database](model-driven-app-glossary.md#Database)
+- A [table](model-driven-app-glossary.md#table) (There are a number, including account which exist by default)
+- One table [column](model-driven-app-glossary.md#column) (Every table has at least one column, and many system columns)
+- One table [view](model-driven-app-glossary.md#view), to see records (There are a number by default)
+- One table [form](model-driven-app-glossary.md#Form), to enter data (There will be one by default)
+
+Beyond this the model-driven app is created, in simple terms, by adding an table to a [site map](model-driven-app-glossary.md#Site-map) using the [app designer](model-driven-app-glossary.md#app-designer), and running through the app validation and publishing process.
+
 ## Next steps
 
 [Building a simple model-driven app](build-first-model-driven-app.md) is a great way to start.  You may wish to [Create a solution](../../maker/data-platform/create-solution) before you do so.
@@ -153,5 +175,7 @@ It is regarded as best practice when creating model-driven apps that these are d
 If you are new to Power Apps, and want to learn about how to convert your ideas into a fully working solution using Power Apps, start with [Planning a Power Apps project](../../guidance/planning/introduction.md).
 
 [Understand model-driven app components](model-driven-app-components.md) will help you to understand some of the elements that make up a model-driven app.
+
+[Learn about licensing for the Power Platform](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
