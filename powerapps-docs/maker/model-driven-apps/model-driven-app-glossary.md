@@ -225,13 +225,19 @@ More information:
 
 [Form Types](../../maker/model-driven-apps/types-forms.md)
 
-[Cpening the form editor](../../maker/model-driven-apps/open-form-editor.md)
+[Cpening the form designer](../../maker/model-driven-apps/open-form-editor.md)
 
 [Learn about creating and designing forms](../../maker/model-driven-apps/create-design-forms.md)
 
 [Add a section to or remove a section from a form](add-move-or-delete-sections-on-form)
 
 [Add a tab to or remove a tab from a form](add-move-or-delete-tabs-on-form.md)
+
+## Form designer
+
+The design experience for creating and editing forms.
+
+[Cpening the form designer](../../maker/model-driven-apps/open-form-editor.md)
 
 ## Group
 
@@ -250,6 +256,12 @@ Lookups are a field type that exist when 2 tables that are related to each.  The
 [Learn more about the lookup field user experience](../../user/lookup-field.md)
 
 [How to configure a lookup](../../maker/model-driven-apps/form-designer-add-configure-lookup.md)
+
+## Main form
+
+Every table has at least one main form.  It represents the primary method of interaction with a record.  The main form is responsive to the device using the form and can contain controls that are optimized to the device whether it be phone, tablet or web.  It is edited using the form designer.
+
+[Learn about other form types](../../maker/model-driven-apps/types-forms.md)
 
 ## Monitor
 
@@ -411,6 +423,12 @@ Tables have views, forms and business rules associated with them.
 Tables can relate to other tables and these are defined via the relationships that have been set up between them.
 
 [Find out more about configuring tables here](../../maker/data-platform/entity-overview.md)
+
+## Table designer
+
+The design experience for creating and editing tables.  This allows us to create tables, columns, relationships, business rules and views.
+
+[Create a custom table using the table designer](../../maker/data-platform/data-platform-create-entity)
 
 ## Unified Interface
 
