@@ -24,17 +24,21 @@ search.app:
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Forms in model-driven apps provide improved user experience for optimum agent productivity and help maintain context while working on related rows. Forms associated with a table can be seen in the solution explorer. The form type of the new form is **Main**.
+Forms in model-driven apps provide the primary means by which users can update records.  Forms associated with a table can be accessed via the table designer.
 
-In addition to main forms app designers can build quick create, quick view or card forms.  [Learn more about other types of form](types-forms)
+The most versatile form type of the new form is **Main**, however, in addition to main forms app designers can build quick create, quick view or card forms.  [Learn more about other types of form](types-forms)
 
 This topic explains how to edit a main form, and add or change various elements of the form.
+
+Below is an example of a main form within an app.  It has several tabs, in addition to exposing the timeline component and a quick view form providing more details associated with the primary contact.
+
+:::image type="content" source="../../maker/model-driven-apps/media/create-and-edit-a-model-driven-form/main-form-accounts_2.png" alt-text="Sample model-driven app":::
 
 ## Open the form editor
 
 To edit a form or to add or change elements, use the form editor. The form editor lets a designer edit forms for all model-driven apps.
 
-Follow the procedures given below to access the form editor. 
+Follow the procedures given below to access the form editor.
 
 > [!NOTE]
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the **default solution**. If you want any new solution components to be included in a **specific unmanaged solution**, open the form editor through that unmanaged solution.  This will help with the application management lifecycle.
@@ -75,20 +79,6 @@ Certain customizations that make changes to the user interface require that they
 2.  Expand **Data**, select **Tables**, select the table that you want, and then select the **Forms** tab.  
 
 3. In the list of forms, open the form of type **Main**.
-
-### Access the form editor through App designer in Power Apps
-
-1.  Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
-
-2.  On the left navigation pane, select **Apps**, select the app required, and then on the toolbar select **Edit**.  
-
-3. On the app designer canvas, select the down arrow ![Down arrow for app designer.](media/down-arrow-app-designer.png) next to a table to see the forms available for that table.
-
-4. Select the open designer button ![open designer.](media/site-map-designer.png)corresponding to the form to edit.
-
-   ![Form editor in app designer.](media/app-designer-forms.png)
-
-5. In the form designer, make your changes and then select **Save** to save the changes and select **Publish** to publish them for use in the app.
 
 > [!NOTE]
 > If you have made other changes to the app, publish them using the app level publish option. See [Validate and publish an app using the app designer](validate-app.md) for more information.
