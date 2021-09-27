@@ -24,9 +24,12 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# Model-driven app timer control overview (Legacy)
+# Model-driven app timer control overview (Classic)
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-classic-interface-control-note.md)]
 
 ## When to use timer controls
 
