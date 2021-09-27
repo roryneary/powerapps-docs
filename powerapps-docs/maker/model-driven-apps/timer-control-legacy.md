@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-classic-interface-control-note.md)]
+[!INCLUDE [cc-classic-interface-control](../../includes/cc-classic-interface-control-note.md)]
 
 ## When to use timer controls
 
