@@ -383,7 +383,18 @@ This allows for a high level of control around our application lifecycle managem
 
 ## Solution Explorer
 
-The name given to the classic interface by which app designers make edits to solution.  Whilst it is a legacy experience it often offers additional functionality with regards to editing aspects of solutions.
+The name given to the app designers make edits to solution.  Whilst it is a legacy experience it often offers additional functionality with regards to editing aspects of solutions.
+
+It can be viewed through both a classic and a modern interface.
+
+To access the modern interface use the following steps :-
+
+  - Sign in to make.powerapps.com
+  - Navigate to an [environment](model-driven-app-glossary.md#environment).
+  - Select a [solution](model-driven-app-glossary.md#solution) into which you would like to place a model driven app.  Create a solution if one doesn't already exist.
+  - Explore the components of the solution
+
+[Find out more about solutions here](../maker/data-platform/solutions-overview.md)
 
 ## Subgrid
 

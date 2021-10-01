@@ -85,7 +85,7 @@ The screenshot below illustrates the impact of having a business process flow in
 
 Business process flows are created and configured using Power Automate.  
 
-More information: [Business process flows overview](/flow/business-process-flows-overview) and [Apply business logic with Microsoft Dataverse](../data-platform/processes.md).
+More information: [Business process flows overview](https://docs.microsoft.com/en-us/power-automate/business-process-flows-overview) and [Apply business logic with Microsoft Dataverse](../data-platform/processes.md).
 
 ### Composing the model-driven app
 
@@ -93,9 +93,15 @@ After creating your data model and defining business processes where necessary, 
 
 This consists of a number of broad stages.
 
-- Create the app
-- Configure the navigation experience using the site map
-- Play your app
+- Create the app.
+  - Sign in to make.powerapps.com
+  - Navigate to an [environment](model-driven-app-glossary.md#environment).
+  - Select a [solution](model-driven-app-glossary.md#solution) into which you would like to place a model driven app.  Create a solution if one doesn't already exist.
+  - Select **New** -> **App** -> **Model-driven app**
+  - Select Classic app designer
+- Configure the navigation experience using the [site map](create-site-map-app.md)
+
+- Play your app through the [app designer](model-driven-app-glossary.md#app-designer), or via the [solution explorer](model-driven-app-glossary.md#solution-explorer).
 
 Much of the time is spent configuring the site map, as this defines the navigation experience for the users.
 
