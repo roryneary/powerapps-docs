@@ -43,6 +43,8 @@ There are some notable advantages to this method of application development.
 - The user experience is **consistent** across all model-driven apps.  As such once a user is confident with one model-driven app later apps are much easier to adopt within an organization.
 - Migrating apps between Development, Test and Production [Environments](../model-driven-apps/model-driven-app-glossary.md#environment) is relatively straightforward through the use of [solutions](../model-driven-apps/model-driven-app-glossary.md#solution)
 
+[Learn more about the benefits of the mode-driven approach](app-value-proposition.md)
+
 ## Model-driven and canvas apps compared
 
 In canvas apps, the app maker has total control over the app layout. In model-driven apps, on the other hand, much of the layout is determined by the components you add. The emphasis is more on quickly viewing your business data and making decisions instead of on intricate app design.
@@ -69,70 +71,9 @@ At a fundamental level, model-driven app making consists of the following areas.
 - Configuring security roles
 - Sharing your app
 
-### Modeling business data
+A large part of the time spent building the app is dedicated to modelling the business data and in some case to defining the business processes. Work on security roles will depend upon the needs of the organization.
 
-To model business data you determine what data your app will need and how that data will relate to other data. Model-driven design uses a metadata-driven architecture so that designers can customize the application without writing code. Metadata means “data about data” and it defines the structure of the data stored in the system. [Tutorial: Create a custom table that has components in Power Apps](../data-platform/create-custom-entity.md)
-
-### Defining business processes
-
-Defining and enforcing consistent business processes is an important aspect of model-driven app design, however it should be noted that it is possible to create a model-app **without** a business process configured around it.
-
-Nevertheless, consistent processes help make sure your app users focus on their work and not on remembering to perform a set of manual steps. These processes can be simple or complex and can contain operations on multiple tables.
-
-The screenshot below illustrates the impact of having a business process flow in place.
-
-:::image type="content" source="../../user/media/business-process.png" alt-text="Sample model-driven app":::
-
-Business process flows are created and configured using Power Automate.  
-
-More information: [Business process flows overview](https://docs.microsoft.com/en-us/power-automate/business-process-flows-overview) and [Apply business logic with Microsoft Dataverse](../data-platform/processes.md).
-
-### Composing the model-driven app
-
-After creating your data model and defining business processes where necessary, you can begin to build your app.
-
-This consists of a number of broad stages.
-
-- Create the app.
-  - Sign in to make.powerapps.com
-  - Navigate to an [environment](model-driven-app-glossary.md#environment).
-  - Select a [solution](model-driven-app-glossary.md#solution) into which you would like to place a model driven app.  Create a solution if one doesn't already exist.
-  - Select **New** -> **App** -> **Model-driven app**
-  - Select Classic app designer
-- Configure the navigation experience using the [site map](create-site-map-app.md)
-
-- Play your app through the [app designer](model-driven-app-glossary.md#app-designer), or via the [solution explorer](model-driven-app-glossary.md#solution-explorer).
-
-Much of the time is spent configuring the site map, as this defines the navigation experience for the users.
-
-Once these stages are complete you can move onto the final phases associated with distributing your app.
-
-### Configuring security roles
-
-Access to tables is defined using roles and these roles define the actions that users can perform with the tables within Dataverse. Without this users will have no meaningful access to the app.
-
-These actions cover Create, Read, Write, Delete, Append, Append To, Assign and Share.  Roles need to be first configured and then users are assigned to roles at the point of sharing.
-
-For more information on understanding, creating and configuring security roles see the following:
-
-- [Power Platform documentation](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges)
-- [Microsoft Learn module](https://docs.microsoft.com/en-us/learn/modules/get-started-security-roles/)
-
-### Sharing your app
-
-To share an app you need 2 actions are required.
-
-- Assign the user a security role.  This means that they have permission to see the data.
-
-:::image type="content" source="media/share-model-driven-app/share-app.png" alt-text="Sample model-driven app":::
-
-- Share a link to the app.  To get the link :
-
-1. Edit the app and click the **Properties** tab
-2. Copy the **Unified Interface URL.**
-3. Paste the app URL in a location so that your users can access it, such as by posting it on a SharePoint site or send via email.
-
-!["Acquiring the link for a model-driven app"](media/share-model-driven-app/app-designer-copy-web-url-process.gif "Acquiring the link for a model-driven app")
+[Learn more about the steps to building a model-driven app](app-building-steps.md)
 
 ## Using a model-driven app
 
@@ -166,7 +107,7 @@ Model-driven apps can be complex, however the minimum requirements for building 
 - [Capacity](https://docs.microsoft.com/en-us/power-platform/admin/capacity-storage) within the organization to create a Dataverse [Environment](model-driven-app-glossary.md#Environment) (This is a function of the Power Apps and Dynamics licenses held)
 - A Dataverse Environment
 - Rights for the developer to work as an [administrator](https://docs.microsoft.com/en-us/power-platform/admin/database-security) within the environment
-- A Dataverse [Database](model-driven-app-glossary.md#Database)
+- A Dataverse [Database](model-driven-app-glossary.md#Database) within the environment
 - A [table](model-driven-app-glossary.md#table) (There are a number, including account which exist by default)
 - One table [column](model-driven-app-glossary.md#column) (Every table has at least one column, and many system columns)
 - One table [view](model-driven-app-glossary.md#view), to see records (There are a number by default)
@@ -177,6 +118,8 @@ Beyond this the model-driven app is created, in simple terms, by adding an table
 ## Next steps
 
 [Building a simple model-driven app](build-first-model-driven-app.md) is a great way to start.  You may wish to [Create a solution](../../maker/data-platform/create-solution) before you do so.
+
+To go deeper into creating model-driven apps see [Steps to building a model-driven app](app-building-steps.md).
 
 If you are new to Power Apps, and want to learn about how to convert your ideas into a fully working solution using Power Apps, start with [Planning a Power Apps project](../../guidance/planning/introduction.md).
 
