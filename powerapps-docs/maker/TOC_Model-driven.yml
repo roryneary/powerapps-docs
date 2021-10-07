@@ -16,10 +16,10 @@
       href: ./model-driven-apps/app-building-steps.md
     - name: Understand model-driven app components
       href: ./model-driven-apps/model-driven-app-components.md
-    - name: Define data for an app
+    - name: Define the data-model for an app
       href: 
       items:
-      - name: Overview
+      - name: Data-model development overview
         href: ./model-driven-apps/define-data-model-driven-app.md
       - name: Common column properties
         href: ./model-driven-apps/common-field-properties-legacy.md
@@ -29,19 +29,10 @@
         href: ./model-driven-apps/translate-localizable-text.md
     - name: Design the app interface
       items:
-      - name: Using the app designer
-        href: ./model-driven-apps/app-designer-overview.md
-        items: 
-        - name: App designer overview
-          href: ./model-driven-apps/app-designer-overview.md
-        - name: Create an app
-          href: ./model-driven-apps/create-model-driven-app.md
-        - name: Create an app with an account table  xxx This is the new page approach xxx
-          href: ./model-driven-apps/create-a-model-driven-app.md
       - name: Working with views
         href: 
         items:
-        - name: Overview
+        - name: Views Overview
           href: ./model-driven-apps/create-edit-views.md
         - name: Opening the view designer
           href: ./model-driven-apps/accessing-view-definitions.md
@@ -91,7 +82,7 @@
         - name: Using the form designer
           href: 
           items:
-          - name: Overview
+          - name: Form designer overview
             href: ./model-driven-apps/form-designer-overview.md
           - name: Create or edit forms
             href: ./model-driven-apps/create-and-edit-forms.md
@@ -122,10 +113,79 @@
             href: ./model-driven-apps/design-performant-forms.md
           - name: Design considerations for main forms
             href: ./model-driven-apps/design-considerations-main-forms.md   
+        - name: Embed a canvas app on a model-driven form
+          href: ./model-driven-apps/embed-canvas-app-in-form.md
+          items:
+          - name: Add an embedded canvas app
+            href: ./model-driven-apps/embedded-canvas-app-add-classic-designer.md
+          - name: Edit an embedded canvas app
+            href: ./model-driven-apps/embedded-canvas-app-edit-classic-designer.md
+          - name: Customize the screen size and orientation
+            href: ./model-driven-apps/embedded-canvas-app-customize-screen.md
+          - name: Perform predefined actions on the host form
+            href: ./model-driven-apps/embedded-canvas-app-actions.md
+          - name: ModelDrivenFormIntegration control
+            href: ./model-driven-apps/embedded-canvas-app-properties-actions.md
+          - name: Pass the current record as data
+            href: ./model-driven-apps/pass-current-embedded-canvas-app.md
+          - name: Pass a related record as data
+            href: ./model-driven-apps/pass-related-embedded-canvas-app.md
+          - name: Share an embedded canvas app
+            href: ./model-driven-apps/share-embedded-canvas-app.md
+          - name: Embedded canvas app guidelines and known issues
+            href: ./model-driven-apps/embedded-canvas-app-guidelines.md
+          - name: Migrating embedded canvas from public preview
+            href: ./model-driven-apps/embedded-canvas-app-migrate-from-preview.md
+        - name: Embed a Power BI report on a form
+          href: ./model-driven-apps/embed-powerbi-report-in-system-form.md
+        - name: Use controls for data entry and display visualizations
+          items:
+          - name: List of controls available
+            href: ./model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets.md        
+          - name: Set up the timeline control
+            href: ./model-driven-apps/set-up-timeline-control.md
+          - name: FAQs for the timeline control
+            href: ./model-driven-apps/faqs-timeline-control.md
+          - name: Quick view control properties
+            href: ./model-driven-apps/quick-view-control-properties-legacy.md
+          - name: Timer control overview
+            href: ./model-driven-apps/timer-control-legacy.md
+          - name: Add the calendar control to entities
+            href: ./model-driven-apps/add-calendar-control.md
+          - name: Add the rich text editor control
+            href: ./model-driven-apps/rich-text-editor-control.md
+          - name: Add the news control to a table
+            href: ./model-driven-apps/stay-current-with-news-control.md
+          - name: Add the form component control
+            href: ./model-driven-apps/form-component-control.md
+        - name: Use custom controls for data visualizations
+          href: ./model-driven-apps/use-custom-controls-data-visualizations.md
         - name: Troubleshoot forms
           items:
           - name: Use Monitor to troubleshoot forms
             href: ./model-driven-apps/monitor-form-checker.md
+      - name: Customize app commands (preview)
+        href: ./model-driven-apps/command-designer-overview.md
+        items:
+        - name: Use command designer
+          href: ./model-driven-apps/use-command-designer.md
+        - name: Use Power Fx for commands
+          href: ./model-driven-apps/commanding-use-powerfx.md
+        - name: Use custom pages as dialogs
+          href: ./model-driven-apps/commanding-designer-use-custom-pages-as-dialogs.md
+        - name: Manage commands in solutions
+          href: ./model-driven-apps/manage-commands-in-solutions.md
+        - name: Command designer limitations
+          href: ./model-driven-apps/command-designer-limitations.md       
+      - name: Using the modern app designer (Preview)
+        href: 
+        items: 
+        - name: App designer overview (Preview)
+          href: ./model-driven-apps/app-designer-overview.md
+        - name: Create an app
+          href: ./model-driven-apps/create-model-driven-app.md
+        - name: Create an app with an account table  xxx This is the new page approach xxx
+          href: ./model-driven-apps/create-a-model-driven-app.md
       - name: Use custom pages within model-driven apps (preview)
         items:
         - name: Custom pages overview
@@ -148,19 +208,6 @@
           href: ./model-driven-apps/model-app-page-issues.md
         - name: Use monitor to troubleshoot custom pages
           href: ./model-driven-apps/monitor-page-checker.md
-      - name: Customize app commands (preview)
-        href: ./model-driven-apps/command-designer-overview.md
-        items:
-        - name: Use command designer
-          href: ./model-driven-apps/use-command-designer.md
-        - name: Use Power Fx for commands
-          href: ./model-driven-apps/commanding-use-powerfx.md
-        - name: Use custom pages as dialogs
-          href: ./model-driven-apps/commanding-designer-use-custom-pages-as-dialogs.md
-        - name: Manage commands in solutions
-          href: ./model-driven-apps/manage-commands-in-solutions.md
-        - name: Command designer limitations
-          href: ./model-driven-apps/command-designer-limitations.md          
       - name: Use the classic designers
         items:
         - name: Design model-driven apps by using the app designer
@@ -217,40 +264,15 @@
             href: ./model-driven-apps/manage-auto-save.md
           - name: How to add a tab for SharePoint documents
             href: ./model-driven-apps/add-documents-tab-entity-main-form.md
-      - name: Embed a canvas app on a model-driven form
-        href: ./model-driven-apps/embed-canvas-app-in-form.md
-        items:
-        - name: Add an embedded canvas app
-          href: ./model-driven-apps/embedded-canvas-app-add-classic-designer.md
-        - name: Edit an embedded canvas app
-          href: ./model-driven-apps/embedded-canvas-app-edit-classic-designer.md
-        - name: Customize the screen size and orientation
-          href: ./model-driven-apps/embedded-canvas-app-customize-screen.md
-        - name: Perform predefined actions on the host form
-          href: ./model-driven-apps/embedded-canvas-app-actions.md
-        - name: ModelDrivenFormIntegration control
-          href: ./model-driven-apps/embedded-canvas-app-properties-actions.md
-        - name: Pass the current record as data
-          href: ./model-driven-apps/pass-current-embedded-canvas-app.md
-        - name: Pass a related record as data
-          href: ./model-driven-apps/pass-related-embedded-canvas-app.md
-        - name: Share an embedded canvas app
-          href: ./model-driven-apps/share-embedded-canvas-app.md
-        - name: Embedded canvas app guidelines and known issues
-          href: ./model-driven-apps/embedded-canvas-app-guidelines.md
-        - name: Migrating embedded canvas from public preview
-          href: ./model-driven-apps/embedded-canvas-app-migrate-from-preview.md
-      - name: Embed a Power BI report on a form
-        href: ./model-driven-apps/embed-powerbi-report-in-system-form.md
     - name: Apply business logic in an app
-      href: ./model-driven-apps/guide-staff-through-common-tasks-processes.md
+      href: 
       items:
+      - name: Business logic overview
+        href: ./model-driven-apps/guide-staff-through-common-tasks-processes.md
       - name: Create a business rule for a form
-        href: ./model-driven-apps/create-business-rules-recommendations-apply-logic-form.md
+        href: ./model-driven-apps/create-business-rules-recommendations-apply-logic-form.md        
     - name: Apply data visualizations in an app
       items:
-      - name: Add a Power BI visual to an app
-        href: ./model-driven-apps/add-powerbi-visual.md
       - name: Create a system chart
         href: ./model-driven-apps/create-edit-system-chart.md
       - name: Create or edit dashboards
@@ -259,28 +281,8 @@
         href: ./model-driven-apps/configure-interactive-experience-dashboards.md
       - name: Set properties for a chart or list
         href: ./model-driven-apps/set-properties-chart-list-included-dashboard.md
-      - name: Use controls for data entry and display visualizations
-        items:
-        - name: List of controls available
-          href: ./model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets.md        
-        - name: Set up the timeline control
-          href: ./model-driven-apps/set-up-timeline-control.md
-        - name: FAQs for the timeline control
-          href: ./model-driven-apps/faqs-timeline-control.md
-        - name: Quick view control properties
-          href: ./model-driven-apps/quick-view-control-properties-legacy.md
-        - name: Timer control overview
-          href: ./model-driven-apps/timer-control-legacy.md
-        - name: Add the calendar control to entities
-          href: ./model-driven-apps/add-calendar-control.md
-        - name: Add the rich text editor control
-          href: ./model-driven-apps/rich-text-editor-control.md
-        - name: Add the news control to a table
-          href: ./model-driven-apps/stay-current-with-news-control.md
-        - name: Add the form component control
-          href: ./model-driven-apps/form-component-control.md
-      - name: Use custom controls for data visualizations
-        href: ./model-driven-apps/use-custom-controls-data-visualizations.md
+      - name: Add a Power BI visual to an app
+        href: ./model-driven-apps/add-powerbi-visual.md
     - name: Use Excel and Word templates
       href: ./model-driven-apps/templates-overview.md
     - name: Use themes to apply organization branding
@@ -288,8 +290,10 @@
     - name: Create guided help for your app
       href: ./data-platform/create-custom-help-pages.md
     - name: Add reporting to your app
-      href: ./model-driven-apps/add-reporting-to-app.md
+      href: 
       items:
+      - name: Reporting overview
+        href: ./model-driven-apps/add-reporting-to-app.md      
       - name: Create a Power BI embedded dashboard
         href: ./model-driven-apps/create-edit-powerbi-embedded-page.md
       - name: Report considerations
@@ -343,4 +347,4 @@
     href: ./model-driven-apps/app-for-outlook-customize.md
   - name: For developers
     href: ../developer/model-driven-apps/overview.md
-    # href: ../developer/model-driven-apps/TOC.yml For authoring I find having developer content buried so deep is awkward
+    
