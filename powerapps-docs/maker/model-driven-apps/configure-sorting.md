@@ -57,24 +57,6 @@ powerapps-docs\maker\model-driven-apps\media\create-or-edit-model-driven-app-vie
 
 7.  To remove a sort expression, select **Remove sort expression** (the **X** button).
 
-## Using solution explorer to change the sort order
-
-It is possible to use the solution explorer in order to change the sorting options for a view.
-
-1.  Open [solution explorer](advanced-navigation.md#solution-explorer), expand **Entities**, select the table you want, select **Views**, and then open the view you want.
-
-2.  In the view designer, select **Configure Sorting**.  
-
-    > [!div class="mx-imgBorder"] 
-    > ![Configure sorting.](media/configure-sorting.png "Configure sorting")
-  
-3.  In the **Configure Sort Order** dialog box, in the **Sort By** list, select the column you want to sort, then select **Ascending Order** or **Descending Order**.  
-  
-4.  Select **OK** to close the **Configure Sort Order** dialog box. 
-
-    > [!IMPORTANT]
-    > Grids in Unified Interface apps take the list of displayed columns from the underlying FetchXML of the view. If the FetchXML that is returned from Microsoft Dataverse does not have a column, then that column is not displayed. This is in contrast to the classic web application, where if a column is not present in FetchXML but is in LayoutXML, such a column is automatically added to the list of displayed columns. Unified Interface apps use OData directly with FetchXML to retrieve data from the server.
-
 ## Next steps
 
 [Table views overview](create-edit-views.md)

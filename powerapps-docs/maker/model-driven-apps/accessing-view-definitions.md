@@ -1,6 +1,6 @@
 ---
-title: "Access a model-driven app view definition | MicrosoftDocs"
-description: Learn how to access table views
+title: "Opening the view designer| MicrosoftDocs"
+description: Learn how to open the view designer
 ms.custom: ""
 ms.date: 03/23/2020
 ms.reviewer: ""
@@ -24,7 +24,7 @@ search.app:
   - "PowerApps"
   - D365CE
 ---
-# Access a model-driven app view definition in Power Apps
+# Opening the view designer
 
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
@@ -34,7 +34,7 @@ In this topic a view definition will be opened to display properties and options
 
 1. Sign in to [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 1. Select **Solutions** open the solution that needs to be modified.  
-1. Select the table that contains the required view such as the **Account** table.
+1. Select the table that contains the required view, such as the **Account** table.
 1. Select the **Views** tab.
 
     > [!div class="mx-imgBorder"]

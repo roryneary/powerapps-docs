@@ -160,9 +160,9 @@ A dashboard allows charts, Power BI reports and views of tables to be presented 
 
 ## Data Model
 
-A collection of related tables.  In the context of model-driven apps these are held within the Dataverse database.
+A collection of related [tables](model-driven-app-glossary.md#table).  In the context of model-driven apps these are held within the Dataverse database.
 
-Where these are included in a solution these are often a set of related tables built with the purpose of delivering the overall business application.
+Where these are included in a [solution](model-driven-app-glossary.md#solution) these are often a set of related tables built with the purpose of delivering the overall business application.
 
 ## Database
 
@@ -425,13 +425,19 @@ From a site map perspective a tab is a "Group" when using the sitemap designer v
 
 A table is a method of storing data in columns (or fields) within Dataverse.  We sometimes refer to them [entities](../model-driven-apps/model-driven-app-glossary.md#entity).
 
-A single entry within a table is know as a record, for example a single customer, and the columns describe metadata associated with the customer such as the name, telephone number or credit limit.
+Tables, in the context of model-driven apps, only ever exist within a [Dataverse](model-driven-app-glossary.md#dataverse) database.
+
+A single entry within a table is know as a [record](model-driven-app-glossary.md#record), for example a single customer, and the columns describe metadata associated with the customer such as the name, telephone number or credit limit.
 
 Every model-driven app must contain at least one table.  Much of the process of creating a model driven app is selecting the tables most relevant to solving the business problem.
 
-Tables have views, forms and business rules associated with them.
+Tables have [views](model-driven-app-glossary.md#view), [forms](model-driven-app-glossary.md#form) and [business rules](model-driven-app-glossary.md#business-rule) associated with them.
 
-Tables can relate to other tables and these are defined via the relationships that have been set up between them.
+Additionally, tables also have [charts](model-driven-app-glossary.md#chart) as well as [dashboards](model-driven-app-glossary.md#dashboard) where table charts a presented.
+
+Tables can relate to other tables and these are defined via the [relationships](model-driven-app-glossary.md#relationship) that have been set up between them.
+
+When we move tables between environments we move all table elements noted along with the table.  This permits a more stable application management lifecycle.
 
 [Find out more about configuring tables here](../../maker/data-platform/entity-overview.md)
 

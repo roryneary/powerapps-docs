@@ -27,7 +27,7 @@ search.app:
   - D365CE
 ---
 
-# Create and edit public or system model-driven app views
+# Create and edit public or system views
 
 Model-driven apps can contain a range of views, so that app users can see the most suitably presented and filtered version of the table that they are investigating.  Views can be **Personal**, **System** or **Public**.
 

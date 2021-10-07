@@ -32,7 +32,7 @@ By default, users can't enter data directly using the read-only view control for
   
  ![Editable grid examples.](media/editable-grid-example.png "Editable grid examples")  
   
- When editable grids are enabled through the Editable Grids control, users can edit most types of columns, including basic Lookup columns and choices.  
+ When editable grids are enabled through the Editable Grids control, users can edit the data inside most types of columns, including basic Lookup columns and choices.  This avoids the need to navigate to a form.
 
 **Editable grids support:**
   

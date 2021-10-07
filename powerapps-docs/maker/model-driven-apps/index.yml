@@ -30,10 +30,11 @@ landingContent:
           - text: Planning a Power Apps project
             url: ../../guidance/planning/introduction.md
        - linkListType: reference
+         links:
           - text: Keyboard shortcuts
-            - url: accessibility-app-designer-site-map-designer-my-apps-page.md
+            url: accessibility-app-designer-site-map-designer-my-apps-page.md
           - text: Glossary
-            - url: model-driven-app-glossary.md
+            url: model-driven-app-glossary.md
       
   # Card
   - title: Get Started
