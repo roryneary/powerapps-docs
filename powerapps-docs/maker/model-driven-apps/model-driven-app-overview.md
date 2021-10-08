@@ -19,13 +19,23 @@ searchScope:
 ---
 # What are model-driven apps in Power Apps?
 
-## Model-driven apps in brief
+## Model-driven apps overview
 
-Model-driven app design is an approach that focuses on adding components such as [forms](../model-driven-apps/model-driven-app-glossary.md#Form), [views](../model-driven-apps/model-driven-app-glossary.md#View), and [charts](../model-driven-apps/model-driven-app-glossary.md#Chart) and [dashboards](../model-driven-apps/model-driven-app-glossary.md#Dashboard) to your apps using an app designer tool. With little or no code, you can build apps that are simple or very complex.
+Model-driven app design is an approach that focuses on adding components such as [forms](../model-driven-apps/model-driven-app-glossary.md#Form), [views](../model-driven-apps/model-driven-app-glossary.md#View), and [charts](../model-driven-apps/model-driven-app-glossary.md#Chart) and [dashboards](../model-driven-apps/model-driven-app-glossary.md#Dashboard) to [tables](model-driven-app-glossary.md#table) apps using an app designer tool. Additionally, [relationships](model-driven-app-glossary.md#relationship) tie tables together in a way that permits navigation between them and ensures that data is not repeated unnecessarily.
 
-Whilst we call them model-driven apps it is often easier to think of them as [data model](../model-driven-apps/model-driven-app-glossary.md#data-model) driven apps as without a data model housed within Microsoft Dataverse they cannot be created.
+Using the app designer with little or no code, you can build apps that are **simple** or very **complex**.
 
-From the perspective of users all model-driven apps offer a very similar user experience, similar to the diagram shown below.  
+### Process driven apps
+
+Model-driven apps are especially well suited to **process driven** apps that are data dense and make it easy for users to move between related records. For example, if you are building an app to manage a complex process, such as onboarding new employees, managing a sales process, or member relationships in an organization like a bank, a model-driven app is a great choice.
+
+### Data modelling
+
+Whilst we call them model-driven apps it is often easier to think of them as [data model](../model-driven-apps/model-driven-app-glossary.md#data-model) driven apps as without a data model housed within Microsoft [Dataverse](model-driven-app-glossary.md#dataverse) they cannot be created.
+
+### User experience
+
+From the perspective of users all model-driven apps offer a very similar **user experience**, that is both [accessible](model-driven-app-glossary.md#accessibility) to many users and to the device used.  The experience is similar to the diagram shown below.  
 
 In this case we have one [dashboard](../model-driven-apps/model-driven-app-glossary.md#Dashboard), containing multiple [charts](../model-driven-apps/model-driven-app-glossary.md#Chart) and [views](../model-driven-apps/model-driven-app-glossary.md#View) in addition to being able to see 3 [tables](../model-driven-apps/model-driven-app-glossary.md#table).  We can navigate between the tables using the menus on the left hand side or via the [dashboard](../model-driven-apps/model-driven-app-glossary.md#Dashboard).
 

@@ -285,12 +285,6 @@
         href: ./model-driven-apps/set-properties-chart-list-included-dashboard.md
       - name: Add a Power BI visual to an app
         href: ./model-driven-apps/add-powerbi-visual.md
-    - name: Use Excel and Word templates
-      href: ./model-driven-apps/templates-overview.md
-    - name: Use themes to apply organization branding
-      href: ./model-driven-apps/create-themes-organization-branding.md
-    - name: Create guided help for your app
-      href: ./data-platform/create-custom-help-pages.md
     - name: Add reporting to your app
       href: 
       items:
@@ -300,10 +294,14 @@
         href: ./model-driven-apps/create-edit-powerbi-embedded-page.md
       - name: Report considerations
         href: ./model-driven-apps/reporting-considerations.md
-      - name: RDL sandboxing
-        href: ./model-driven-apps/rdl-sandboxing.md
       - name: Use Power BI
         href: ./model-driven-apps/use-power-bi.md
+    - name: Use Excel and Word templates
+      href: ./model-driven-apps/templates-overview.md
+    - name: Use themes to apply organization branding
+      href: ./model-driven-apps/create-themes-organization-branding.md
+    - name: Create guided help for your app
+      href: ./data-platform/create-custom-help-pages.md
   - name: Validate and publish an app
     href: ./model-driven-apps/validate-app.md
   - name: Share an app
@@ -341,8 +339,6 @@
       href: ./common/performance-insights-overview.md
     - name: Understand performance insights
       href: ./common/performance-insights-categories.md
-  - name: Model-driven app FAQ
-    href: ./model-driven-apps/model-app-faq.md
   - name: Accessibility in Power Apps app designer
     href: ./model-driven-apps/Accessibility-app-designer-site-map-designer-my-apps-page.md
   - name: For developers

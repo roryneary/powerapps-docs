@@ -377,7 +377,7 @@ Unmanaged Solutions would be used by developers and these would be exported as m
 
 This allows for a high level of control around our application lifecycle management.
 
-[Find out more about solutions here](../maker/data-platform/solutions-overview.md)
+[Find out more about solutions here](../../maker/data-platform/solutions-overview.md)
 
 [Discover solutions in the context of Dataverse](../../developer\data-platform\introduction-solutions.md)
 

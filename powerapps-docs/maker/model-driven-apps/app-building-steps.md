@@ -42,7 +42,7 @@ Whilst it may seem strange to have multiple editors these reflect the various te
 
 To model business data you determine what data your app will need and how that data will relate to other data. Model-driven design uses a metadata-driven architecture so that designers can customize the application without writing code. Metadata means “data about data” and it defines the structure of the data stored in the system.
 
-Model-driven apps **cannot** be created without Dataverse tables, however Dataverse tables can be used by a wide of products including canvas apps and Power Automate.
+>[!NOTE]Model-driven apps **cannot** be created without Dataverse tables, however Dataverse tables can be used by a wide of products including canvas apps and Power Automate.
 
 [Tutorial: Create a custom table that has components in Power Apps](../data-platform/create-custom-entity.md)
 
@@ -64,19 +64,19 @@ More information: [Business process flows overview](https://docs.microsoft.com/e
 
 After creating a data model and defining business processes where necessary, the app can be built.
 
-This consists of a number of broad stages.
+This can be done in one of 2 ways, by building an app using the modern interface, or the classic interface.
 
-- Create the app.
-  - Sign in to make.powerapps.com
-  - Navigate to an [environment](model-driven-app-glossary.md#environment).
-  - Select a [solution](model-driven-app-glossary.md#solution) into which you would like to place a model driven app.  Create a solution if one doesn't already exist.
-  - Select **New** -> **App** -> **Model-driven app**
-  - Select Classic app designer
-- Configure the navigation experience using the [site map](create-site-map-app.md)
+With the modern interface designers can see the effects of the changes that they make whilst designing, whereas with the classic interface there is a level of abstraction between the final user experience and the design experience.
+
+[Learn how to build a modern app](build-first-model-driven-app.md)
+
+[Learn how to build an app using the classic interface](build-first-model-driven-app-classic.md)
+
+With both experiences a [site map](model-driven-app-glossary.md#site-map) is created, defining the navigation experience for users.  With the modern approach this a product of the visual design process, whereas with the classic app design process a site map designer is used.
+
+### Playing the app
 
 - Play your app through the [app designer](model-driven-app-glossary.md#app-designer), or via the [solution explorer](model-driven-app-glossary.md#solution-explorer).
-
-Much of the time is spent configuring the site map, as this defines the navigation experience for the users.
 
 Once these stages are complete you can move onto the final phases associated with distributing your app.
 
